@@ -34,6 +34,7 @@ void writeMem()  //Read into memory
   for(m=0; m<4; m++) temp = (temp<<8) + (unsigned char)iBuffer[m];
   PC = temp;
   initPC = temp;
+  printf("%08X %08X\n", PC, initPC);
   for(m=4; m<8; m++) line = (line<<8) + (unsigned char)iBuffer[m];
   for(m=8; m<8+line*4; m++) iMem[m-8] = iBuffer[m];
   //Handle with dMemory

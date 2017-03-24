@@ -8,7 +8,7 @@
 
 #define REG_SIZE 32
 
-unsigned char initPC, initSP;
+unsigned int initPC, initSP;
 unsigned int L_REG[REG_SIZE], L_PC, L_HI, L_LO;
 
 //Register
