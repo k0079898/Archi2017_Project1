@@ -5,6 +5,7 @@
 
 FILE *snapshot, *error_dump;
 void writeSnapshot(unsigned int cycles);
+void writeError(unsigned int cycles);
 
 int main()
 {
@@ -22,10 +23,17 @@ int main()
 	while(halt!=1)
 	{
 		cycles ++;
+		writeToRegZero = 0;
+		numberOverflow = 0;
+		overwriteHILO = 0;
+		memAddOverflow = 0;
+		dataMisaligned = 0;
 		halt = doInstruction();
-		PC = PC + 4;
-		//writeSnapshot(cycles);
+		if(halt!=1) writeSnapshot(cycles);
+		writeError(cycles);
 	}
+	fclose(snapshot);
+	fclose(error_dump);
 	return 0;
 }
 
@@ -71,7 +79,7 @@ void writeSnapshot(unsigned int cycles)
     if(L_LO != LO)
     {
       fprintf(snapshot, "$LO: %#08X\n", LO);
-      printf("$LO: %#08X\n", LO);
+      printf("$LO: %#08X\n\n\n", LO);
       L_LO = LO;
     }
     if(L_PC != PC)
@@ -81,4 +89,34 @@ void writeSnapshot(unsigned int cycles)
       L_PC = PC;
     }
   }
+}
+
+
+void writeError(unsigned int cycles)
+{
+	if(writeToRegZero==1)
+	{
+		fprintf(error_dump, "In cycle %d: Write $0 Error\n", cycles);
+		printf("In cycle %d: Write $0 Error\n", cycles);
+	}
+	if(numberOverflow==1)
+	{
+		fprintf(error_dump, "In cycle %d: Number Overflow\n", cycles);
+		printf("In cycle %d: Number Overflow\n", cycles);
+	}
+	if(overwriteHILO==1)
+	{
+		fprintf(error_dump, "In cycle %d: Overwrite HI-LO registers\n", cycles);
+		printf("In cycle %d: Overwrite HI-LO registers\n", cycles);
+	}
+	if(memAddOverflow==1)
+	{
+		fprintf(error_dump, "In cycle %d: Address Overflow\n", cycles);
+		printf("In cycle %d: Address Overflow\n", cycles);
+	}
+	if(dataMisaligned==1)
+	{
+		fprintf(error_dump, "In cycle %d: Misalignment\n", cycles);
+		printf("In cycle %d: Misalignment\n", cycles);
+	}
 }
