@@ -16,7 +16,7 @@ int decode();  //Decode the instruction
 int rType(char *command);  //Deal with R-Type instruction
 int iType(char *command);  //Deal with I-Type instruction
 int jType(char *command);  //Deal with J-type instruction
-void NumberOverflowDetection(int in1, int in2, int out);
+void NumberOverflowDetection(char *command,int in1, int in2, int out);
 void MemAddOverflowDetection(int addr, int size);
 void DataMisalignedDetection(int words, int size);
 
