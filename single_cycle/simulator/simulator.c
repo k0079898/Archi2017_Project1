@@ -84,8 +84,8 @@ void writeSnapshot(unsigned int cycles)
     }
     if(L_PC != PC)
     {
-      fprintf(snapshot, "PC: %#08X\n", PC);
-      printf("PC: %#08X\n", PC);
+      fprintf(snapshot, "PC: %#08X\n\n\n", PC);
+      printf("PC: %#08X\n\n\n", PC);
       L_PC = PC;
     }
   }
@@ -117,6 +117,6 @@ void writeError(unsigned int cycles)
 	if(dataMisaligned==1)
 	{
 		fprintf(error_dump, "In cycle %d: Misalignment\n", cycles);
-		printf("In cycle %d: Misalignment\n", cycles);
+		printf("In cycle %d: Misalignment Error\n", cycles);
 	}
 }

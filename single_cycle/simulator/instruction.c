@@ -2,16 +2,16 @@
 
 int doInstruction()
 {
-  int i;
+  int i, isError = 0;
   int add = PC - initPC;
   for(i=0; i<4; i++) instruction = (instruction<<8) + (unsigned char)iMem[add+i];
   opcode = instruction >> 26;  //31~26
   if(opcode==0x3F) return 1;
   else
   {
-    PC = PC + 4;
-    return decode();
+    isError = decode();
   }
+  return isError;
 }
 
 int decode()  //Decode the instruction
@@ -71,78 +71,94 @@ int rType(char *command)  //Deal with R-Type instruction
   rt = instruction << 11 >> 27;
   rd = instruction << 16 >> 27;
   shamt = instruction << 21 >> 27;
-  printf("%02X %02X %02X %02X %02X %02X\n", opcode, rs, rt, rd, shamt, funct);
-  if(strcmp(command, "add"))
+  if(strcmp(command, "add")==0)
+  {
+    printf("%#08x: add $%u, $%u,$%u\n", PC, rd, rs, rt);
+    if(rd==0) writeToRegZero = 1;
+    else{
+      REG[rd] = REG[rs] + REG[rt];
+      NumberOverflowDetection(REG[rs], REG[rt], REG[rd]);
+    }
+  }else if(strcmp(command, "addu")==0)
   {
 
-  }else if(strcmp(command, "addu"))
+  }else if(strcmp(command, "sub")==0)
   {
 
-  }else if(strcmp(command, "sub"))
+  }else if(strcmp(command, "and")==0)
   {
 
-  }else if(strcmp(command, "and"))
+  }else if(strcmp(command, "or")==0)
   {
 
-  }else if(strcmp(command, "or"))
+  }else if(strcmp(command, "xor")==0)
   {
 
-  }else if(strcmp(command, "xor"))
+  }else if(strcmp(command, "nor")==0)
   {
 
-  }else if(strcmp(command, "nor"))
+  }else if(strcmp(command, "nand")==0)
   {
 
-  }else if(strcmp(command, "nand"))
+  }else if(strcmp(command, "slt")==0)
   {
 
-  }else if(strcmp(command, "slt"))
+  }else if(strcmp(command, "sll")==0)
   {
 
-  }else if(strcmp(command, "sll"))
+  }else if(strcmp(command, "srl")==0)
   {
 
-  }else if(strcmp(command, "srl"))
+  }else if(strcmp(command, "sra")==0)
   {
 
-  }else if(strcmp(command, "sra"))
+  }else if(strcmp(command, "jr")==0)
+  {
+    printf("%#08x: jr $%u\n", PC, rs);
+    PC = REG[rs];
+    return 0 ;
+  }else if(strcmp(command, "mult")==0)
   {
 
-  }else if(strcmp(command, "jr"))
+  }else if(strcmp(command, "multu")==0)
   {
 
-  }else if(strcmp(command, "mult"))
+  }else if(strcmp(command, "mfhi")==0)
   {
 
-  }else if(strcmp(command, "multu"))
-  {
-
-  }else if(strcmp(command, "mfhi"))
-  {
-
-  }else if(strcmp(command, "mflo"))
+  }else if(strcmp(command, "mflo")==0)
   {
 
   }else return 1;
+  PC = PC + 4;
+  return 0;
 }
 int iType(char *command)  //Deal with I-Type instruction
 {
   rs = instruction << 6 >> 27;
   rt = instruction << 11 >> 27;
   immediate = instruction << 16 >> 16;
-  printf("%02X %02X %02X %04X\n", opcode, rs, rt, immediate);
   if(strcmp(command, "addi")==0)
   {
     printf("%#08X: addi $%u, $%u, %d\n", PC, rs, rt, (short int)immediate);
     if(rt==0) writeToRegZero = 1;
-    else REG[rt] = REG[rs] + (short int)immediate;
-    return 0;
+    else
+    {
+      REG[rt] = REG[rs] + (short int)immediate;
+      NumberOverflowDetection(REG[rs], (short int)immediate, REG[rt]);
+    }
   }else if(strcmp(command, "addiu")==0)
   {
 
   }else if(strcmp(command, "lw")==0)
   {
-
+    printf("0x%08x: lw $%u, %04X($%u)\n", PC, rt, immediate, rs);
+    unsigned int add = REG[rs] + immediate;
+    MemAddOverflowDetection(add, 3);
+    DataMisalignedDetection(immediate, 4);
+    if(memAddOverflow==1 || dataMisaligned==1) return 1;
+    REG[rt] = dMem[add] << 24 | dMem[add+1] << 16 | dMem[add+2] << 8 | dMem[add+3];
+    NumberOverflowDetection(REG[rs], (short int)immediate, add);
   }else if(strcmp(command, "lh")==0)
   {
 
@@ -157,7 +173,16 @@ int iType(char *command)  //Deal with I-Type instruction
 
   }else if(strcmp(command, "sw")==0)
   {
-
+    printf("0x%08x: sw $%u, %04X($%u)\n", PC, rt, immediate, rs);
+    unsigned int add = REG[rs] + immediate;
+    MemAddOverflowDetection(add, 3);
+    DataMisalignedDetection(immediate, 4);
+    if(memAddOverflow==1 || dataMisaligned==1) return 1;
+    dMem[add] = REG[rt] >> 24;
+    dMem[add+1] = REG[rt] >> 16;
+    dMem[add+2] = REG[rt] >> 8;
+    dMem[add+3] = REG[rt];
+    NumberOverflowDetection(REG[rs], (short int)immediate, add);
   }else if(strcmp(command, "sh")==0)
 
   {
@@ -189,6 +214,8 @@ int iType(char *command)  //Deal with I-Type instruction
   {
 
   }else return 1;
+  PC = PC + 4;
+  return 0;
 }
 
 int jType(char *command)  //Deal with J-type instruction
@@ -197,9 +224,31 @@ int jType(char *command)  //Deal with J-type instruction
   printf("%02X %07X\n", opcode, address);
   if(strcmp(command, "j")==0)
   {
-
+    printf("0x%08x: j %08X\n", PC, address);
+    PC = ((PC+4) >> 28 << 28) | address*4;
   }else if(strcmp(command, "jal")==0)
   {
-
+    printf("0x%08x: jal %08X\n", PC, address);
+    REG[31] = PC + 4;
+    PC = ((PC+4) >> 28 << 28) | address*4;
   }else return 1;
+}
+
+void NumberOverflowDetection(int in1, int in2, int out)
+{
+  if(in1 > 0 && in2 > 0 && out < 0) numberOverflow = 1;
+  else if(in1 < 0 && in2 < 0 && out > 0) numberOverflow = 1;
+}
+
+void OverwriteHILODetection()
+{
+
+}
+void MemAddOverflowDetection(int add, int size)
+{
+  if(add >= MEM_SIZE || add+size >= MEM_SIZE) memAddOverflow = 1;
+}
+void DataMisalignedDetection(int words, int size)
+{
+  if(words%size!=0) dataMisaligned = 1;
 }

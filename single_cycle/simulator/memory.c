@@ -34,7 +34,6 @@ void writeMem()  //Read into memory
   for(m=0; m<4; m++) temp = (temp<<8) + (unsigned char)iBuffer[m];
   PC = temp;
   initPC = temp;
-  printf("%08X %08X\n", PC, initPC);
   for(m=4; m<8; m++) line = (line<<8) + (unsigned char)iBuffer[m];
   for(m=8; m<8+line*4; m++) iMem[m-8] = iBuffer[m];
   //Handle with dMemory
@@ -54,12 +53,12 @@ void memDebug() //Memory debug function
   int i;
   printf("iMemmory:\n");
   for(i=0; i<MEM_SIZE; i++){
-    if((i+1)%4==0) printf("%02X\n", iMem[i]);
-    else printf("%02X", iMem[i]);
+    if((i+1)%4==0) printf("%#04X: %02X\n", i, iMem[i]);
+    else printf("%#04X: %02X ", i,  iMem[i]);
   }
   printf("dMemmory:\n");
   for(i=0; i<MEM_SIZE; i++){
-    if((i+1)%4==0) printf("%02X\n", dMem[i]);
-    else printf("%02X", dMem[i]);
+    if((i+1)%4==0) printf("%#04X: %02X\n", i, dMem[i]);
+    else printf("%#04X: %02X ", i, dMem[i]);
   }
 }
