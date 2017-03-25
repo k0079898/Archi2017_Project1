@@ -53,12 +53,12 @@ void memDebug() //Memory debug function
   int i;
   printf("iMemmory:\n");
   for(i=0; i<MEM_SIZE; i++){
-    if((i+1)%4==0) printf("%#04X: %02X\n", i, iMem[i]);
-    else printf("%#04X: %02X ", i,  iMem[i]);
+    if((i+1)%4==0) printf("0x%04X: %02X\n", i, iMem[i]);
+    else printf("0x%04X: %02X ", i, iMem[i]);
   }
   printf("dMemmory:\n");
   for(i=0; i<MEM_SIZE; i++){
-    if((i+1)%4==0) printf("%#04X: %02X\n", i, dMem[i]);
-    else printf("%#04X: %02X ", i, dMem[i]);
+    if((i+1)%4==0) printf("0x%04X: %02X\n", i, dMem[i]);
+    else printf("0x%04X: %02X ", i, dMem[i]);
   }
 }
