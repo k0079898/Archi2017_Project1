@@ -47,16 +47,16 @@ void writeSnapshot(unsigned int cycles)
     for(i=0; i<REG_SIZE; i++)
     {
       fprintf(snapshot, "$%02d: ", i);
-      fprintf(snapshot, "%#08X\n", REG[i]);
+      fprintf(snapshot, "0x%08X\n", REG[i]);
       printf("$%02d: ", i);
-      printf("%#08X\n", REG[i]);
+      printf("0x%08X\n", REG[i]);
     }
-    fprintf(snapshot, "$HI: %#08X\n", HI);
+    fprintf(snapshot, "$HI: 0x%08X\n", HI);
     printf("$HI: 0x%08X\n", HI);
-    fprintf(snapshot, "$LO: %#08X\n", LO);
+    fprintf(snapshot, "$LO: 0x%08X\n", LO);
     printf("$LO: 0x%08X\n", LO);
-    fprintf(snapshot, "PC: %#08X\n\n\n", PC);
-    printf("PC: %#08X\n\n\n", PC);
+    fprintf(snapshot, "PC: 0x%08X\n\n\n", PC);
+    printf("PC: 0x%08X\n\n\n", PC);
   }else //Simulaing Print
   {
     for(i=0; i<REG_SIZE; i++)
@@ -64,28 +64,28 @@ void writeSnapshot(unsigned int cycles)
       if(L_REG[i] != REG[i])
       {
         fprintf(snapshot, "$%02d: ", i);
-        fprintf(snapshot, "%#08X\n", REG[i]);
+        fprintf(snapshot, "0x%08X\n", REG[i]);
         printf("$%02d: ", i);
-        printf("%#08X\n", REG[i]);
+        printf("0x%08X\n", REG[i]);
         L_REG[i] = REG[i];
       }
     }
     if(L_HI != HI)
     {
-      fprintf(snapshot, "$HI: %#08X\n", HI);
-      printf("$HI: %#08X\n", HI);
+      fprintf(snapshot, "$HI: 0x%08X\n", HI);
+      printf("$HI: 0x%08X\n", HI);
       L_HI = HI;
     }
     if(L_LO != LO)
     {
-      fprintf(snapshot, "$LO: %#08X\n", LO);
-      printf("$LO: %#08X\n\n\n", LO);
+      fprintf(snapshot, "$LO: 0x%08X\n", LO);
+      printf("$LO: 0x%08X\n", LO);
       L_LO = LO;
     }
     if(L_PC != PC)
     {
-      fprintf(snapshot, "PC: %#08X\n\n\n", PC);
-      printf("PC: %#08X\n\n\n", PC);
+      fprintf(snapshot, "PC: 0x%08X\n\n\n", PC);
+      printf("PC: 0x%08X\n\n\n", PC);
       L_PC = PC;
     }
   }
