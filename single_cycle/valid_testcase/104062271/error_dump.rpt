@@ -1,0 +1,9 @@
+In cycle 72: Number Overflow
+In cycle 141: Overwrite HI-LO registers
+In cycle 142: Overwrite HI-LO registers
+In cycle 143: Overwrite HI-LO registers
+In cycle 144: Overwrite HI-LO registers
+In cycle 145: Overwrite HI-LO registers
+In cycle 327837: Number Overflow
+In cycle 327839: Write $0 Error
+In cycle 331245: Address Overflow

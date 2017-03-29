@@ -1,0 +1,69 @@
+In cycle 21: Write $0 Error
+In cycle 23: Number Overflow
+In cycle 25: Number Overflow
+In cycle 28: Write $0 Error
+In cycle 28: Number Overflow
+In cycle 29: Write $0 Error
+In cycle 36: Write $0 Error
+In cycle 37: Write $0 Error
+In cycle 38: Write $0 Error
+In cycle 42: Write $0 Error
+In cycle 44: Number Overflow
+In cycle 45: Number Overflow
+In cycle 48: Write $0 Error
+In cycle 49: Write $0 Error
+In cycle 50: Write $0 Error
+In cycle 56: Write $0 Error
+In cycle 58: Write $0 Error
+In cycle 64: Write $0 Error
+In cycle 67: Write $0 Error
+In cycle 69: Write $0 Error
+In cycle 71: Write $0 Error
+In cycle 93: Write $0 Error
+In cycle 95: Number Overflow
+In cycle 97: Number Overflow
+In cycle 100: Write $0 Error
+In cycle 100: Number Overflow
+In cycle 101: Write $0 Error
+In cycle 108: Write $0 Error
+In cycle 109: Write $0 Error
+In cycle 110: Write $0 Error
+In cycle 114: Write $0 Error
+In cycle 116: Number Overflow
+In cycle 117: Number Overflow
+In cycle 120: Write $0 Error
+In cycle 121: Write $0 Error
+In cycle 122: Write $0 Error
+In cycle 128: Write $0 Error
+In cycle 130: Write $0 Error
+In cycle 136: Write $0 Error
+In cycle 139: Write $0 Error
+In cycle 141: Write $0 Error
+In cycle 143: Write $0 Error
+In cycle 148: Overwrite HI-LO registers
+In cycle 149: Overwrite HI-LO registers
+In cycle 150: Write $0 Error
+In cycle 152: Write $0 Error
+In cycle 156: Overwrite HI-LO registers
+In cycle 157: Overwrite HI-LO registers
+In cycle 158: Write $0 Error
+In cycle 159: Write $0 Error
+In cycle 166: Write $0 Error
+In cycle 167: Write $0 Error
+In cycle 167: Number Overflow
+In cycle 168: Write $0 Error
+In cycle 168: Number Overflow
+In cycle 170: Write $0 Error
+In cycle 171: Write $0 Error
+In cycle 172: Write $0 Error
+In cycle 174: Write $0 Error
+In cycle 176: Write $0 Error
+In cycle 177: Write $0 Error
+In cycle 179: Write $0 Error
+In cycle 181: Write $0 Error
+In cycle 182: Write $0 Error
+In cycle 196: Write $0 Error
+In cycle 199: Write $0 Error
+In cycle 200: Write $0 Error
+In cycle 200: Address Overflow
+In cycle 200: Misalignment Error

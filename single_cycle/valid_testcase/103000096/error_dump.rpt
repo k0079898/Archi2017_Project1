@@ -1,0 +1,7 @@
+In cycle 28: Overwrite HI-LO registers
+In cycle 34: Number Overflow
+In cycle 36: Number Overflow
+In cycle 38: Write $0 Error
+In cycle 38: Number Overflow
+In cycle 38: Address Overflow
+In cycle 38: Misalignment Error

@@ -1,0 +1,164 @@
+In cycle 1: Write $0 Error
+In cycle 32: Number Overflow
+In cycle 47: Write $0 Error
+In cycle 49: Overwrite HI-LO registers
+In cycle 67: Overwrite HI-LO registers
+In cycle 86: Write $0 Error
+In cycle 117: Number Overflow
+In cycle 132: Write $0 Error
+In cycle 134: Overwrite HI-LO registers
+In cycle 152: Overwrite HI-LO registers
+In cycle 171: Write $0 Error
+In cycle 202: Number Overflow
+In cycle 217: Write $0 Error
+In cycle 219: Overwrite HI-LO registers
+In cycle 237: Overwrite HI-LO registers
+In cycle 256: Write $0 Error
+In cycle 287: Number Overflow
+In cycle 302: Write $0 Error
+In cycle 304: Overwrite HI-LO registers
+In cycle 322: Overwrite HI-LO registers
+In cycle 341: Write $0 Error
+In cycle 372: Number Overflow
+In cycle 387: Write $0 Error
+In cycle 389: Overwrite HI-LO registers
+In cycle 407: Overwrite HI-LO registers
+In cycle 426: Write $0 Error
+In cycle 457: Number Overflow
+In cycle 472: Write $0 Error
+In cycle 474: Overwrite HI-LO registers
+In cycle 492: Overwrite HI-LO registers
+In cycle 511: Write $0 Error
+In cycle 542: Number Overflow
+In cycle 557: Write $0 Error
+In cycle 559: Overwrite HI-LO registers
+In cycle 577: Overwrite HI-LO registers
+In cycle 596: Write $0 Error
+In cycle 627: Number Overflow
+In cycle 642: Write $0 Error
+In cycle 644: Overwrite HI-LO registers
+In cycle 662: Overwrite HI-LO registers
+In cycle 681: Write $0 Error
+In cycle 712: Number Overflow
+In cycle 727: Write $0 Error
+In cycle 729: Overwrite HI-LO registers
+In cycle 747: Overwrite HI-LO registers
+In cycle 766: Write $0 Error
+In cycle 797: Number Overflow
+In cycle 812: Write $0 Error
+In cycle 814: Overwrite HI-LO registers
+In cycle 832: Overwrite HI-LO registers
+In cycle 851: Write $0 Error
+In cycle 882: Number Overflow
+In cycle 897: Write $0 Error
+In cycle 899: Overwrite HI-LO registers
+In cycle 917: Overwrite HI-LO registers
+In cycle 936: Write $0 Error
+In cycle 967: Number Overflow
+In cycle 982: Write $0 Error
+In cycle 984: Overwrite HI-LO registers
+In cycle 1002: Overwrite HI-LO registers
+In cycle 1021: Write $0 Error
+In cycle 1052: Number Overflow
+In cycle 1067: Write $0 Error
+In cycle 1069: Overwrite HI-LO registers
+In cycle 1087: Overwrite HI-LO registers
+In cycle 1106: Write $0 Error
+In cycle 1137: Number Overflow
+In cycle 1152: Write $0 Error
+In cycle 1154: Overwrite HI-LO registers
+In cycle 1172: Overwrite HI-LO registers
+In cycle 1191: Write $0 Error
+In cycle 1222: Number Overflow
+In cycle 1237: Write $0 Error
+In cycle 1239: Overwrite HI-LO registers
+In cycle 1257: Overwrite HI-LO registers
+In cycle 1276: Write $0 Error
+In cycle 1307: Number Overflow
+In cycle 1322: Write $0 Error
+In cycle 1324: Overwrite HI-LO registers
+In cycle 1342: Overwrite HI-LO registers
+In cycle 1361: Write $0 Error
+In cycle 1392: Number Overflow
+In cycle 1407: Write $0 Error
+In cycle 1409: Overwrite HI-LO registers
+In cycle 1427: Overwrite HI-LO registers
+In cycle 1446: Write $0 Error
+In cycle 1477: Number Overflow
+In cycle 1492: Write $0 Error
+In cycle 1494: Overwrite HI-LO registers
+In cycle 1512: Overwrite HI-LO registers
+In cycle 1531: Write $0 Error
+In cycle 1562: Number Overflow
+In cycle 1577: Write $0 Error
+In cycle 1579: Overwrite HI-LO registers
+In cycle 1597: Overwrite HI-LO registers
+In cycle 1616: Write $0 Error
+In cycle 1647: Number Overflow
+In cycle 1662: Write $0 Error
+In cycle 1664: Overwrite HI-LO registers
+In cycle 1682: Overwrite HI-LO registers
+In cycle 1701: Write $0 Error
+In cycle 1732: Number Overflow
+In cycle 1747: Write $0 Error
+In cycle 1749: Overwrite HI-LO registers
+In cycle 1767: Overwrite HI-LO registers
+In cycle 1786: Write $0 Error
+In cycle 1817: Number Overflow
+In cycle 1832: Write $0 Error
+In cycle 1834: Overwrite HI-LO registers
+In cycle 1852: Overwrite HI-LO registers
+In cycle 1871: Write $0 Error
+In cycle 1902: Number Overflow
+In cycle 1917: Write $0 Error
+In cycle 1919: Overwrite HI-LO registers
+In cycle 1937: Overwrite HI-LO registers
+In cycle 1956: Write $0 Error
+In cycle 1987: Number Overflow
+In cycle 2002: Write $0 Error
+In cycle 2004: Overwrite HI-LO registers
+In cycle 2022: Overwrite HI-LO registers
+In cycle 2041: Write $0 Error
+In cycle 2072: Number Overflow
+In cycle 2087: Write $0 Error
+In cycle 2089: Overwrite HI-LO registers
+In cycle 2107: Overwrite HI-LO registers
+In cycle 2126: Write $0 Error
+In cycle 2157: Number Overflow
+In cycle 2172: Write $0 Error
+In cycle 2174: Overwrite HI-LO registers
+In cycle 2192: Overwrite HI-LO registers
+In cycle 2211: Write $0 Error
+In cycle 2242: Number Overflow
+In cycle 2257: Write $0 Error
+In cycle 2259: Overwrite HI-LO registers
+In cycle 2277: Overwrite HI-LO registers
+In cycle 2296: Write $0 Error
+In cycle 2327: Number Overflow
+In cycle 2342: Write $0 Error
+In cycle 2344: Overwrite HI-LO registers
+In cycle 2362: Overwrite HI-LO registers
+In cycle 2381: Write $0 Error
+In cycle 2412: Number Overflow
+In cycle 2427: Write $0 Error
+In cycle 2429: Overwrite HI-LO registers
+In cycle 2447: Overwrite HI-LO registers
+In cycle 2466: Write $0 Error
+In cycle 2497: Number Overflow
+In cycle 2512: Write $0 Error
+In cycle 2514: Overwrite HI-LO registers
+In cycle 2532: Overwrite HI-LO registers
+In cycle 2551: Write $0 Error
+In cycle 2582: Number Overflow
+In cycle 2597: Write $0 Error
+In cycle 2599: Overwrite HI-LO registers
+In cycle 2617: Overwrite HI-LO registers
+In cycle 2636: Write $0 Error
+In cycle 2667: Number Overflow
+In cycle 2682: Write $0 Error
+In cycle 2684: Overwrite HI-LO registers
+In cycle 2692: Write $0 Error
+In cycle 2694: Write $0 Error
+In cycle 2695: Write $0 Error
+In cycle 2695: Address Overflow
+In cycle 2695: Misalignment Error

@@ -1,0 +1,7 @@
+In cycle 19: Overwrite HI-LO registers
+In cycle 22: Write $0 Error
+In cycle 24: Write $0 Error
+In cycle 29: Write $0 Error
+In cycle 29: Number Overflow
+In cycle 29: Address Overflow
+In cycle 29: Misalignment Error

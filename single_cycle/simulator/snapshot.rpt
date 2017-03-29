@@ -1,0 +1,8533 @@
+cycle 0
+$00: 0x00000000
+$01: 0x00000000
+$02: 0x00000000
+$03: 0x00000000
+$04: 0x00000000
+$05: 0x00000000
+$06: 0x00000000
+$07: 0x00000000
+$08: 0x00000000
+$09: 0x00000000
+$10: 0x00000000
+$11: 0x00000000
+$12: 0x00000000
+$13: 0x00000000
+$14: 0x00000000
+$15: 0x00000000
+$16: 0x00000000
+$17: 0x00000000
+$18: 0x00000000
+$19: 0x00000000
+$20: 0x00000000
+$21: 0x00000000
+$22: 0x00000000
+$23: 0x00000000
+$24: 0x00000000
+$25: 0x00000000
+$26: 0x00000000
+$27: 0x00000000
+$28: 0x00000000
+$29: 0x000003FC
+$30: 0x00000000
+$31: 0x00000000
+$HI: 0x00000000
+$LO: 0x00000000
+PC: 0x00000028
+
+
+cycle 1
+$24: 0x7FFFFFFF
+PC: 0x0000002C
+
+
+cycle 2
+$25: 0x80000000
+PC: 0x00000030
+
+
+cycle 3
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 4
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 5
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 6
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 7
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 8
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 9
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 10
+PC: 0x00000050
+
+
+cycle 11
+PC: 0x00000054
+
+
+cycle 12
+PC: 0x00000058
+
+
+cycle 13
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 14
+$23: 0x00000001
+PC: 0x00000060
+
+
+cycle 15
+PC: 0x00000064
+
+
+cycle 16
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 17
+PC: 0x0000006C
+
+
+cycle 18
+PC: 0x00000000
+
+
+cycle 19
+PC: 0x00000004
+
+
+cycle 20
+PC: 0x00000008
+
+
+cycle 21
+PC: 0x0000000C
+
+
+cycle 22
+PC: 0x00000010
+
+
+cycle 23
+PC: 0x00000014
+
+
+cycle 24
+PC: 0x00000018
+
+
+cycle 25
+PC: 0x0000001C
+
+
+cycle 26
+PC: 0x00000020
+
+
+cycle 27
+PC: 0x00000024
+
+
+cycle 28
+PC: 0x00000028
+
+
+cycle 29
+PC: 0x0000002C
+
+
+cycle 30
+PC: 0x00000030
+
+
+cycle 31
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 32
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 33
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 34
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 35
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 36
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 37
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 38
+PC: 0x00000050
+
+
+cycle 39
+PC: 0x00000054
+
+
+cycle 40
+PC: 0x00000058
+
+
+cycle 41
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 42
+$23: 0x00000002
+PC: 0x00000060
+
+
+cycle 43
+PC: 0x00000064
+
+
+cycle 44
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 45
+PC: 0x0000006C
+
+
+cycle 46
+PC: 0x00000000
+
+
+cycle 47
+PC: 0x00000004
+
+
+cycle 48
+PC: 0x00000008
+
+
+cycle 49
+PC: 0x0000000C
+
+
+cycle 50
+PC: 0x00000010
+
+
+cycle 51
+PC: 0x00000014
+
+
+cycle 52
+PC: 0x00000018
+
+
+cycle 53
+PC: 0x0000001C
+
+
+cycle 54
+PC: 0x00000020
+
+
+cycle 55
+PC: 0x00000024
+
+
+cycle 56
+PC: 0x00000028
+
+
+cycle 57
+PC: 0x0000002C
+
+
+cycle 58
+PC: 0x00000030
+
+
+cycle 59
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 60
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 61
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 62
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 63
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 64
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 65
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 66
+PC: 0x00000050
+
+
+cycle 67
+PC: 0x00000054
+
+
+cycle 68
+PC: 0x00000058
+
+
+cycle 69
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 70
+$23: 0x00000003
+PC: 0x00000060
+
+
+cycle 71
+PC: 0x00000064
+
+
+cycle 72
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 73
+PC: 0x0000006C
+
+
+cycle 74
+PC: 0x00000000
+
+
+cycle 75
+PC: 0x00000004
+
+
+cycle 76
+PC: 0x00000008
+
+
+cycle 77
+PC: 0x0000000C
+
+
+cycle 78
+PC: 0x00000010
+
+
+cycle 79
+PC: 0x00000014
+
+
+cycle 80
+PC: 0x00000018
+
+
+cycle 81
+PC: 0x0000001C
+
+
+cycle 82
+PC: 0x00000020
+
+
+cycle 83
+PC: 0x00000024
+
+
+cycle 84
+PC: 0x00000028
+
+
+cycle 85
+PC: 0x0000002C
+
+
+cycle 86
+PC: 0x00000030
+
+
+cycle 87
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 88
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 89
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 90
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 91
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 92
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 93
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 94
+PC: 0x00000050
+
+
+cycle 95
+PC: 0x00000054
+
+
+cycle 96
+PC: 0x00000058
+
+
+cycle 97
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 98
+$23: 0x00000004
+PC: 0x00000060
+
+
+cycle 99
+PC: 0x00000064
+
+
+cycle 100
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 101
+PC: 0x0000006C
+
+
+cycle 102
+PC: 0x00000000
+
+
+cycle 103
+PC: 0x00000004
+
+
+cycle 104
+PC: 0x00000008
+
+
+cycle 105
+PC: 0x0000000C
+
+
+cycle 106
+PC: 0x00000010
+
+
+cycle 107
+PC: 0x00000014
+
+
+cycle 108
+PC: 0x00000018
+
+
+cycle 109
+PC: 0x0000001C
+
+
+cycle 110
+PC: 0x00000020
+
+
+cycle 111
+PC: 0x00000024
+
+
+cycle 112
+PC: 0x00000028
+
+
+cycle 113
+PC: 0x0000002C
+
+
+cycle 114
+PC: 0x00000030
+
+
+cycle 115
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 116
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 117
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 118
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 119
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 120
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 121
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 122
+PC: 0x00000050
+
+
+cycle 123
+PC: 0x00000054
+
+
+cycle 124
+PC: 0x00000058
+
+
+cycle 125
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 126
+$23: 0x00000005
+PC: 0x00000060
+
+
+cycle 127
+PC: 0x00000064
+
+
+cycle 128
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 129
+PC: 0x0000006C
+
+
+cycle 130
+PC: 0x00000000
+
+
+cycle 131
+PC: 0x00000004
+
+
+cycle 132
+PC: 0x00000008
+
+
+cycle 133
+PC: 0x0000000C
+
+
+cycle 134
+PC: 0x00000010
+
+
+cycle 135
+PC: 0x00000014
+
+
+cycle 136
+PC: 0x00000018
+
+
+cycle 137
+PC: 0x0000001C
+
+
+cycle 138
+PC: 0x00000020
+
+
+cycle 139
+PC: 0x00000024
+
+
+cycle 140
+PC: 0x00000028
+
+
+cycle 141
+PC: 0x0000002C
+
+
+cycle 142
+PC: 0x00000030
+
+
+cycle 143
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 144
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 145
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 146
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 147
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 148
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 149
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 150
+PC: 0x00000050
+
+
+cycle 151
+PC: 0x00000054
+
+
+cycle 152
+PC: 0x00000058
+
+
+cycle 153
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 154
+$23: 0x00000006
+PC: 0x00000060
+
+
+cycle 155
+PC: 0x00000064
+
+
+cycle 156
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 157
+PC: 0x0000006C
+
+
+cycle 158
+PC: 0x00000000
+
+
+cycle 159
+PC: 0x00000004
+
+
+cycle 160
+PC: 0x00000008
+
+
+cycle 161
+PC: 0x0000000C
+
+
+cycle 162
+PC: 0x00000010
+
+
+cycle 163
+PC: 0x00000014
+
+
+cycle 164
+PC: 0x00000018
+
+
+cycle 165
+PC: 0x0000001C
+
+
+cycle 166
+PC: 0x00000020
+
+
+cycle 167
+PC: 0x00000024
+
+
+cycle 168
+PC: 0x00000028
+
+
+cycle 169
+PC: 0x0000002C
+
+
+cycle 170
+PC: 0x00000030
+
+
+cycle 171
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 172
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 173
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 174
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 175
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 176
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 177
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 178
+PC: 0x00000050
+
+
+cycle 179
+PC: 0x00000054
+
+
+cycle 180
+PC: 0x00000058
+
+
+cycle 181
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 182
+$23: 0x00000007
+PC: 0x00000060
+
+
+cycle 183
+PC: 0x00000064
+
+
+cycle 184
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 185
+PC: 0x0000006C
+
+
+cycle 186
+PC: 0x00000000
+
+
+cycle 187
+PC: 0x00000004
+
+
+cycle 188
+PC: 0x00000008
+
+
+cycle 189
+PC: 0x0000000C
+
+
+cycle 190
+PC: 0x00000010
+
+
+cycle 191
+PC: 0x00000014
+
+
+cycle 192
+PC: 0x00000018
+
+
+cycle 193
+PC: 0x0000001C
+
+
+cycle 194
+PC: 0x00000020
+
+
+cycle 195
+PC: 0x00000024
+
+
+cycle 196
+PC: 0x00000028
+
+
+cycle 197
+PC: 0x0000002C
+
+
+cycle 198
+PC: 0x00000030
+
+
+cycle 199
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 200
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 201
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 202
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 203
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 204
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 205
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 206
+PC: 0x00000050
+
+
+cycle 207
+PC: 0x00000054
+
+
+cycle 208
+PC: 0x00000058
+
+
+cycle 209
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 210
+$23: 0x00000008
+PC: 0x00000060
+
+
+cycle 211
+PC: 0x00000064
+
+
+cycle 212
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 213
+PC: 0x0000006C
+
+
+cycle 214
+PC: 0x00000000
+
+
+cycle 215
+PC: 0x00000004
+
+
+cycle 216
+PC: 0x00000008
+
+
+cycle 217
+PC: 0x0000000C
+
+
+cycle 218
+PC: 0x00000010
+
+
+cycle 219
+PC: 0x00000014
+
+
+cycle 220
+PC: 0x00000018
+
+
+cycle 221
+PC: 0x0000001C
+
+
+cycle 222
+PC: 0x00000020
+
+
+cycle 223
+PC: 0x00000024
+
+
+cycle 224
+PC: 0x00000028
+
+
+cycle 225
+PC: 0x0000002C
+
+
+cycle 226
+PC: 0x00000030
+
+
+cycle 227
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 228
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 229
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 230
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 231
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 232
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 233
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 234
+PC: 0x00000050
+
+
+cycle 235
+PC: 0x00000054
+
+
+cycle 236
+PC: 0x00000058
+
+
+cycle 237
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 238
+$23: 0x00000009
+PC: 0x00000060
+
+
+cycle 239
+PC: 0x00000064
+
+
+cycle 240
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 241
+PC: 0x0000006C
+
+
+cycle 242
+PC: 0x00000000
+
+
+cycle 243
+PC: 0x00000004
+
+
+cycle 244
+PC: 0x00000008
+
+
+cycle 245
+PC: 0x0000000C
+
+
+cycle 246
+PC: 0x00000010
+
+
+cycle 247
+PC: 0x00000014
+
+
+cycle 248
+PC: 0x00000018
+
+
+cycle 249
+PC: 0x0000001C
+
+
+cycle 250
+PC: 0x00000020
+
+
+cycle 251
+PC: 0x00000024
+
+
+cycle 252
+PC: 0x00000028
+
+
+cycle 253
+PC: 0x0000002C
+
+
+cycle 254
+PC: 0x00000030
+
+
+cycle 255
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 256
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 257
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 258
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 259
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 260
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 261
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 262
+PC: 0x00000050
+
+
+cycle 263
+PC: 0x00000054
+
+
+cycle 264
+PC: 0x00000058
+
+
+cycle 265
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 266
+$23: 0x0000000A
+PC: 0x00000060
+
+
+cycle 267
+PC: 0x00000064
+
+
+cycle 268
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 269
+PC: 0x0000006C
+
+
+cycle 270
+PC: 0x00000000
+
+
+cycle 271
+PC: 0x00000004
+
+
+cycle 272
+PC: 0x00000008
+
+
+cycle 273
+PC: 0x0000000C
+
+
+cycle 274
+PC: 0x00000010
+
+
+cycle 275
+PC: 0x00000014
+
+
+cycle 276
+PC: 0x00000018
+
+
+cycle 277
+PC: 0x0000001C
+
+
+cycle 278
+PC: 0x00000020
+
+
+cycle 279
+PC: 0x00000024
+
+
+cycle 280
+PC: 0x00000028
+
+
+cycle 281
+PC: 0x0000002C
+
+
+cycle 282
+PC: 0x00000030
+
+
+cycle 283
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 284
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 285
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 286
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 287
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 288
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 289
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 290
+PC: 0x00000050
+
+
+cycle 291
+PC: 0x00000054
+
+
+cycle 292
+PC: 0x00000058
+
+
+cycle 293
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 294
+$23: 0x0000000B
+PC: 0x00000060
+
+
+cycle 295
+PC: 0x00000064
+
+
+cycle 296
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 297
+PC: 0x0000006C
+
+
+cycle 298
+PC: 0x00000000
+
+
+cycle 299
+PC: 0x00000004
+
+
+cycle 300
+PC: 0x00000008
+
+
+cycle 301
+PC: 0x0000000C
+
+
+cycle 302
+PC: 0x00000010
+
+
+cycle 303
+PC: 0x00000014
+
+
+cycle 304
+PC: 0x00000018
+
+
+cycle 305
+PC: 0x0000001C
+
+
+cycle 306
+PC: 0x00000020
+
+
+cycle 307
+PC: 0x00000024
+
+
+cycle 308
+PC: 0x00000028
+
+
+cycle 309
+PC: 0x0000002C
+
+
+cycle 310
+PC: 0x00000030
+
+
+cycle 311
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 312
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 313
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 314
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 315
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 316
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 317
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 318
+PC: 0x00000050
+
+
+cycle 319
+PC: 0x00000054
+
+
+cycle 320
+PC: 0x00000058
+
+
+cycle 321
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 322
+$23: 0x0000000C
+PC: 0x00000060
+
+
+cycle 323
+PC: 0x00000064
+
+
+cycle 324
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 325
+PC: 0x0000006C
+
+
+cycle 326
+PC: 0x00000000
+
+
+cycle 327
+PC: 0x00000004
+
+
+cycle 328
+PC: 0x00000008
+
+
+cycle 329
+PC: 0x0000000C
+
+
+cycle 330
+PC: 0x00000010
+
+
+cycle 331
+PC: 0x00000014
+
+
+cycle 332
+PC: 0x00000018
+
+
+cycle 333
+PC: 0x0000001C
+
+
+cycle 334
+PC: 0x00000020
+
+
+cycle 335
+PC: 0x00000024
+
+
+cycle 336
+PC: 0x00000028
+
+
+cycle 337
+PC: 0x0000002C
+
+
+cycle 338
+PC: 0x00000030
+
+
+cycle 339
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 340
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 341
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 342
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 343
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 344
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 345
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 346
+PC: 0x00000050
+
+
+cycle 347
+PC: 0x00000054
+
+
+cycle 348
+PC: 0x00000058
+
+
+cycle 349
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 350
+$23: 0x0000000D
+PC: 0x00000060
+
+
+cycle 351
+PC: 0x00000064
+
+
+cycle 352
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 353
+PC: 0x0000006C
+
+
+cycle 354
+PC: 0x00000000
+
+
+cycle 355
+PC: 0x00000004
+
+
+cycle 356
+PC: 0x00000008
+
+
+cycle 357
+PC: 0x0000000C
+
+
+cycle 358
+PC: 0x00000010
+
+
+cycle 359
+PC: 0x00000014
+
+
+cycle 360
+PC: 0x00000018
+
+
+cycle 361
+PC: 0x0000001C
+
+
+cycle 362
+PC: 0x00000020
+
+
+cycle 363
+PC: 0x00000024
+
+
+cycle 364
+PC: 0x00000028
+
+
+cycle 365
+PC: 0x0000002C
+
+
+cycle 366
+PC: 0x00000030
+
+
+cycle 367
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 368
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 369
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 370
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 371
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 372
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 373
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 374
+PC: 0x00000050
+
+
+cycle 375
+PC: 0x00000054
+
+
+cycle 376
+PC: 0x00000058
+
+
+cycle 377
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 378
+$23: 0x0000000E
+PC: 0x00000060
+
+
+cycle 379
+PC: 0x00000064
+
+
+cycle 380
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 381
+PC: 0x0000006C
+
+
+cycle 382
+PC: 0x00000000
+
+
+cycle 383
+PC: 0x00000004
+
+
+cycle 384
+PC: 0x00000008
+
+
+cycle 385
+PC: 0x0000000C
+
+
+cycle 386
+PC: 0x00000010
+
+
+cycle 387
+PC: 0x00000014
+
+
+cycle 388
+PC: 0x00000018
+
+
+cycle 389
+PC: 0x0000001C
+
+
+cycle 390
+PC: 0x00000020
+
+
+cycle 391
+PC: 0x00000024
+
+
+cycle 392
+PC: 0x00000028
+
+
+cycle 393
+PC: 0x0000002C
+
+
+cycle 394
+PC: 0x00000030
+
+
+cycle 395
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 396
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 397
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 398
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 399
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 400
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 401
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 402
+PC: 0x00000050
+
+
+cycle 403
+PC: 0x00000054
+
+
+cycle 404
+PC: 0x00000058
+
+
+cycle 405
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 406
+$23: 0x0000000F
+PC: 0x00000060
+
+
+cycle 407
+PC: 0x00000064
+
+
+cycle 408
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 409
+PC: 0x0000006C
+
+
+cycle 410
+PC: 0x00000000
+
+
+cycle 411
+PC: 0x00000004
+
+
+cycle 412
+PC: 0x00000008
+
+
+cycle 413
+PC: 0x0000000C
+
+
+cycle 414
+PC: 0x00000010
+
+
+cycle 415
+PC: 0x00000014
+
+
+cycle 416
+PC: 0x00000018
+
+
+cycle 417
+PC: 0x0000001C
+
+
+cycle 418
+PC: 0x00000020
+
+
+cycle 419
+PC: 0x00000024
+
+
+cycle 420
+PC: 0x00000028
+
+
+cycle 421
+PC: 0x0000002C
+
+
+cycle 422
+PC: 0x00000030
+
+
+cycle 423
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 424
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 425
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 426
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 427
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 428
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 429
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 430
+PC: 0x00000050
+
+
+cycle 431
+PC: 0x00000054
+
+
+cycle 432
+PC: 0x00000058
+
+
+cycle 433
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 434
+$23: 0x00000010
+PC: 0x00000060
+
+
+cycle 435
+PC: 0x00000064
+
+
+cycle 436
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 437
+PC: 0x00000070
+
+
+cycle 438
+$09: 0xFFFFFFFF
+PC: 0x00000074
+
+
+cycle 439
+$08: 0x80000000
+PC: 0x00000078
+
+
+cycle 440
+PC: 0x00000080
+
+
+cycle 441
+PC: 0x00000084
+
+
+cycle 442
+PC: 0x00000088
+
+
+cycle 443
+PC: 0x0000008C
+
+
+cycle 444
+PC: 0x00000090
+
+
+cycle 445
+PC: 0x00000094
+
+
+cycle 446
+PC: 0x00000098
+
+
+cycle 447
+PC: 0x0000009C
+
+
+cycle 448
+PC: 0x000000A0
+
+
+cycle 449
+PC: 0x000000A4
+
+
+cycle 450
+PC: 0x000000A8
+
+
+cycle 451
+PC: 0x000000AC
+
+
+cycle 452
+$09: 0x00000000
+PC: 0x000000B0
+
+
+cycle 453
+$22: 0x00000001
+PC: 0x000000B4
+
+
+cycle 454
+$23: 0x00000000
+PC: 0x000000B8
+
+
+cycle 455
+$08: 0x00000004
+PC: 0x000000BC
+
+
+cycle 456
+PC: 0x000000C0
+
+
+cycle 457
+PC: 0x00000000
+
+
+cycle 458
+PC: 0x00000004
+
+
+cycle 459
+PC: 0x00000008
+
+
+cycle 460
+PC: 0x0000000C
+
+
+cycle 461
+PC: 0x00000010
+
+
+cycle 462
+PC: 0x00000014
+
+
+cycle 463
+PC: 0x00000018
+
+
+cycle 464
+PC: 0x0000001C
+
+
+cycle 465
+PC: 0x00000020
+
+
+cycle 466
+PC: 0x00000024
+
+
+cycle 467
+PC: 0x00000028
+
+
+cycle 468
+PC: 0x0000002C
+
+
+cycle 469
+PC: 0x00000030
+
+
+cycle 470
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 471
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 472
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 473
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 474
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 475
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 476
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 477
+PC: 0x00000050
+
+
+cycle 478
+PC: 0x00000054
+
+
+cycle 479
+PC: 0x00000058
+
+
+cycle 480
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 481
+$23: 0x00000001
+PC: 0x00000060
+
+
+cycle 482
+PC: 0x00000064
+
+
+cycle 483
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 484
+PC: 0x0000006C
+
+
+cycle 485
+PC: 0x00000000
+
+
+cycle 486
+PC: 0x00000004
+
+
+cycle 487
+PC: 0x00000008
+
+
+cycle 488
+PC: 0x0000000C
+
+
+cycle 489
+PC: 0x00000010
+
+
+cycle 490
+PC: 0x00000014
+
+
+cycle 491
+PC: 0x00000018
+
+
+cycle 492
+PC: 0x0000001C
+
+
+cycle 493
+PC: 0x00000020
+
+
+cycle 494
+PC: 0x00000024
+
+
+cycle 495
+PC: 0x00000028
+
+
+cycle 496
+PC: 0x0000002C
+
+
+cycle 497
+PC: 0x00000030
+
+
+cycle 498
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 499
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 500
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 501
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 502
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 503
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 504
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 505
+PC: 0x00000050
+
+
+cycle 506
+PC: 0x00000054
+
+
+cycle 507
+PC: 0x00000058
+
+
+cycle 508
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 509
+$23: 0x00000002
+PC: 0x00000060
+
+
+cycle 510
+PC: 0x00000064
+
+
+cycle 511
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 512
+PC: 0x0000006C
+
+
+cycle 513
+PC: 0x00000000
+
+
+cycle 514
+PC: 0x00000004
+
+
+cycle 515
+PC: 0x00000008
+
+
+cycle 516
+PC: 0x0000000C
+
+
+cycle 517
+PC: 0x00000010
+
+
+cycle 518
+PC: 0x00000014
+
+
+cycle 519
+PC: 0x00000018
+
+
+cycle 520
+PC: 0x0000001C
+
+
+cycle 521
+PC: 0x00000020
+
+
+cycle 522
+PC: 0x00000024
+
+
+cycle 523
+PC: 0x00000028
+
+
+cycle 524
+PC: 0x0000002C
+
+
+cycle 525
+PC: 0x00000030
+
+
+cycle 526
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 527
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 528
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 529
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 530
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 531
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 532
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 533
+PC: 0x00000050
+
+
+cycle 534
+PC: 0x00000054
+
+
+cycle 535
+PC: 0x00000058
+
+
+cycle 536
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 537
+$23: 0x00000003
+PC: 0x00000060
+
+
+cycle 538
+PC: 0x00000064
+
+
+cycle 539
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 540
+PC: 0x0000006C
+
+
+cycle 541
+PC: 0x00000000
+
+
+cycle 542
+PC: 0x00000004
+
+
+cycle 543
+PC: 0x00000008
+
+
+cycle 544
+PC: 0x0000000C
+
+
+cycle 545
+PC: 0x00000010
+
+
+cycle 546
+PC: 0x00000014
+
+
+cycle 547
+PC: 0x00000018
+
+
+cycle 548
+PC: 0x0000001C
+
+
+cycle 549
+PC: 0x00000020
+
+
+cycle 550
+PC: 0x00000024
+
+
+cycle 551
+PC: 0x00000028
+
+
+cycle 552
+PC: 0x0000002C
+
+
+cycle 553
+PC: 0x00000030
+
+
+cycle 554
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 555
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 556
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 557
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 558
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 559
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 560
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 561
+PC: 0x00000050
+
+
+cycle 562
+PC: 0x00000054
+
+
+cycle 563
+PC: 0x00000058
+
+
+cycle 564
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 565
+$23: 0x00000004
+PC: 0x00000060
+
+
+cycle 566
+PC: 0x00000064
+
+
+cycle 567
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 568
+PC: 0x0000006C
+
+
+cycle 569
+PC: 0x00000000
+
+
+cycle 570
+PC: 0x00000004
+
+
+cycle 571
+PC: 0x00000008
+
+
+cycle 572
+PC: 0x0000000C
+
+
+cycle 573
+PC: 0x00000010
+
+
+cycle 574
+PC: 0x00000014
+
+
+cycle 575
+PC: 0x00000018
+
+
+cycle 576
+PC: 0x0000001C
+
+
+cycle 577
+PC: 0x00000020
+
+
+cycle 578
+PC: 0x00000024
+
+
+cycle 579
+PC: 0x00000028
+
+
+cycle 580
+PC: 0x0000002C
+
+
+cycle 581
+PC: 0x00000030
+
+
+cycle 582
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 583
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 584
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 585
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 586
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 587
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 588
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 589
+PC: 0x00000050
+
+
+cycle 590
+PC: 0x00000054
+
+
+cycle 591
+PC: 0x00000058
+
+
+cycle 592
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 593
+$23: 0x00000005
+PC: 0x00000060
+
+
+cycle 594
+PC: 0x00000064
+
+
+cycle 595
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 596
+PC: 0x0000006C
+
+
+cycle 597
+PC: 0x00000000
+
+
+cycle 598
+PC: 0x00000004
+
+
+cycle 599
+PC: 0x00000008
+
+
+cycle 600
+PC: 0x0000000C
+
+
+cycle 601
+PC: 0x00000010
+
+
+cycle 602
+PC: 0x00000014
+
+
+cycle 603
+PC: 0x00000018
+
+
+cycle 604
+PC: 0x0000001C
+
+
+cycle 605
+PC: 0x00000020
+
+
+cycle 606
+PC: 0x00000024
+
+
+cycle 607
+PC: 0x00000028
+
+
+cycle 608
+PC: 0x0000002C
+
+
+cycle 609
+PC: 0x00000030
+
+
+cycle 610
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 611
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 612
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 613
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 614
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 615
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 616
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 617
+PC: 0x00000050
+
+
+cycle 618
+PC: 0x00000054
+
+
+cycle 619
+PC: 0x00000058
+
+
+cycle 620
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 621
+$23: 0x00000006
+PC: 0x00000060
+
+
+cycle 622
+PC: 0x00000064
+
+
+cycle 623
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 624
+PC: 0x0000006C
+
+
+cycle 625
+PC: 0x00000000
+
+
+cycle 626
+PC: 0x00000004
+
+
+cycle 627
+PC: 0x00000008
+
+
+cycle 628
+PC: 0x0000000C
+
+
+cycle 629
+PC: 0x00000010
+
+
+cycle 630
+PC: 0x00000014
+
+
+cycle 631
+PC: 0x00000018
+
+
+cycle 632
+PC: 0x0000001C
+
+
+cycle 633
+PC: 0x00000020
+
+
+cycle 634
+PC: 0x00000024
+
+
+cycle 635
+PC: 0x00000028
+
+
+cycle 636
+PC: 0x0000002C
+
+
+cycle 637
+PC: 0x00000030
+
+
+cycle 638
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 639
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 640
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 641
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 642
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 643
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 644
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 645
+PC: 0x00000050
+
+
+cycle 646
+PC: 0x00000054
+
+
+cycle 647
+PC: 0x00000058
+
+
+cycle 648
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 649
+$23: 0x00000007
+PC: 0x00000060
+
+
+cycle 650
+PC: 0x00000064
+
+
+cycle 651
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 652
+PC: 0x0000006C
+
+
+cycle 653
+PC: 0x00000000
+
+
+cycle 654
+PC: 0x00000004
+
+
+cycle 655
+PC: 0x00000008
+
+
+cycle 656
+PC: 0x0000000C
+
+
+cycle 657
+PC: 0x00000010
+
+
+cycle 658
+PC: 0x00000014
+
+
+cycle 659
+PC: 0x00000018
+
+
+cycle 660
+PC: 0x0000001C
+
+
+cycle 661
+PC: 0x00000020
+
+
+cycle 662
+PC: 0x00000024
+
+
+cycle 663
+PC: 0x00000028
+
+
+cycle 664
+PC: 0x0000002C
+
+
+cycle 665
+PC: 0x00000030
+
+
+cycle 666
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 667
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 668
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 669
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 670
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 671
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 672
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 673
+PC: 0x00000050
+
+
+cycle 674
+PC: 0x00000054
+
+
+cycle 675
+PC: 0x00000058
+
+
+cycle 676
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 677
+$23: 0x00000008
+PC: 0x00000060
+
+
+cycle 678
+PC: 0x00000064
+
+
+cycle 679
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 680
+PC: 0x0000006C
+
+
+cycle 681
+PC: 0x00000000
+
+
+cycle 682
+PC: 0x00000004
+
+
+cycle 683
+PC: 0x00000008
+
+
+cycle 684
+PC: 0x0000000C
+
+
+cycle 685
+PC: 0x00000010
+
+
+cycle 686
+PC: 0x00000014
+
+
+cycle 687
+PC: 0x00000018
+
+
+cycle 688
+PC: 0x0000001C
+
+
+cycle 689
+PC: 0x00000020
+
+
+cycle 690
+PC: 0x00000024
+
+
+cycle 691
+PC: 0x00000028
+
+
+cycle 692
+PC: 0x0000002C
+
+
+cycle 693
+PC: 0x00000030
+
+
+cycle 694
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 695
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 696
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 697
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 698
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 699
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 700
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 701
+PC: 0x00000050
+
+
+cycle 702
+PC: 0x00000054
+
+
+cycle 703
+PC: 0x00000058
+
+
+cycle 704
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 705
+$23: 0x00000009
+PC: 0x00000060
+
+
+cycle 706
+PC: 0x00000064
+
+
+cycle 707
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 708
+PC: 0x0000006C
+
+
+cycle 709
+PC: 0x00000000
+
+
+cycle 710
+PC: 0x00000004
+
+
+cycle 711
+PC: 0x00000008
+
+
+cycle 712
+PC: 0x0000000C
+
+
+cycle 713
+PC: 0x00000010
+
+
+cycle 714
+PC: 0x00000014
+
+
+cycle 715
+PC: 0x00000018
+
+
+cycle 716
+PC: 0x0000001C
+
+
+cycle 717
+PC: 0x00000020
+
+
+cycle 718
+PC: 0x00000024
+
+
+cycle 719
+PC: 0x00000028
+
+
+cycle 720
+PC: 0x0000002C
+
+
+cycle 721
+PC: 0x00000030
+
+
+cycle 722
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 723
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 724
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 725
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 726
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 727
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 728
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 729
+PC: 0x00000050
+
+
+cycle 730
+PC: 0x00000054
+
+
+cycle 731
+PC: 0x00000058
+
+
+cycle 732
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 733
+$23: 0x0000000A
+PC: 0x00000060
+
+
+cycle 734
+PC: 0x00000064
+
+
+cycle 735
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 736
+PC: 0x0000006C
+
+
+cycle 737
+PC: 0x00000000
+
+
+cycle 738
+PC: 0x00000004
+
+
+cycle 739
+PC: 0x00000008
+
+
+cycle 740
+PC: 0x0000000C
+
+
+cycle 741
+PC: 0x00000010
+
+
+cycle 742
+PC: 0x00000014
+
+
+cycle 743
+PC: 0x00000018
+
+
+cycle 744
+PC: 0x0000001C
+
+
+cycle 745
+PC: 0x00000020
+
+
+cycle 746
+PC: 0x00000024
+
+
+cycle 747
+PC: 0x00000028
+
+
+cycle 748
+PC: 0x0000002C
+
+
+cycle 749
+PC: 0x00000030
+
+
+cycle 750
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 751
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 752
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 753
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 754
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 755
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 756
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 757
+PC: 0x00000050
+
+
+cycle 758
+PC: 0x00000054
+
+
+cycle 759
+PC: 0x00000058
+
+
+cycle 760
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 761
+$23: 0x0000000B
+PC: 0x00000060
+
+
+cycle 762
+PC: 0x00000064
+
+
+cycle 763
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 764
+PC: 0x0000006C
+
+
+cycle 765
+PC: 0x00000000
+
+
+cycle 766
+PC: 0x00000004
+
+
+cycle 767
+PC: 0x00000008
+
+
+cycle 768
+PC: 0x0000000C
+
+
+cycle 769
+PC: 0x00000010
+
+
+cycle 770
+PC: 0x00000014
+
+
+cycle 771
+PC: 0x00000018
+
+
+cycle 772
+PC: 0x0000001C
+
+
+cycle 773
+PC: 0x00000020
+
+
+cycle 774
+PC: 0x00000024
+
+
+cycle 775
+PC: 0x00000028
+
+
+cycle 776
+PC: 0x0000002C
+
+
+cycle 777
+PC: 0x00000030
+
+
+cycle 778
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 779
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 780
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 781
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 782
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 783
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 784
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 785
+PC: 0x00000050
+
+
+cycle 786
+PC: 0x00000054
+
+
+cycle 787
+PC: 0x00000058
+
+
+cycle 788
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 789
+$23: 0x0000000C
+PC: 0x00000060
+
+
+cycle 790
+PC: 0x00000064
+
+
+cycle 791
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 792
+PC: 0x0000006C
+
+
+cycle 793
+PC: 0x00000000
+
+
+cycle 794
+PC: 0x00000004
+
+
+cycle 795
+PC: 0x00000008
+
+
+cycle 796
+PC: 0x0000000C
+
+
+cycle 797
+PC: 0x00000010
+
+
+cycle 798
+PC: 0x00000014
+
+
+cycle 799
+PC: 0x00000018
+
+
+cycle 800
+PC: 0x0000001C
+
+
+cycle 801
+PC: 0x00000020
+
+
+cycle 802
+PC: 0x00000024
+
+
+cycle 803
+PC: 0x00000028
+
+
+cycle 804
+PC: 0x0000002C
+
+
+cycle 805
+PC: 0x00000030
+
+
+cycle 806
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 807
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 808
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 809
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 810
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 811
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 812
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 813
+PC: 0x00000050
+
+
+cycle 814
+PC: 0x00000054
+
+
+cycle 815
+PC: 0x00000058
+
+
+cycle 816
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 817
+$23: 0x0000000D
+PC: 0x00000060
+
+
+cycle 818
+PC: 0x00000064
+
+
+cycle 819
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 820
+PC: 0x0000006C
+
+
+cycle 821
+PC: 0x00000000
+
+
+cycle 822
+PC: 0x00000004
+
+
+cycle 823
+PC: 0x00000008
+
+
+cycle 824
+PC: 0x0000000C
+
+
+cycle 825
+PC: 0x00000010
+
+
+cycle 826
+PC: 0x00000014
+
+
+cycle 827
+PC: 0x00000018
+
+
+cycle 828
+PC: 0x0000001C
+
+
+cycle 829
+PC: 0x00000020
+
+
+cycle 830
+PC: 0x00000024
+
+
+cycle 831
+PC: 0x00000028
+
+
+cycle 832
+PC: 0x0000002C
+
+
+cycle 833
+PC: 0x00000030
+
+
+cycle 834
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 835
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 836
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 837
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 838
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 839
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 840
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 841
+PC: 0x00000050
+
+
+cycle 842
+PC: 0x00000054
+
+
+cycle 843
+PC: 0x00000058
+
+
+cycle 844
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 845
+$23: 0x0000000E
+PC: 0x00000060
+
+
+cycle 846
+PC: 0x00000064
+
+
+cycle 847
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 848
+PC: 0x0000006C
+
+
+cycle 849
+PC: 0x00000000
+
+
+cycle 850
+PC: 0x00000004
+
+
+cycle 851
+PC: 0x00000008
+
+
+cycle 852
+PC: 0x0000000C
+
+
+cycle 853
+PC: 0x00000010
+
+
+cycle 854
+PC: 0x00000014
+
+
+cycle 855
+PC: 0x00000018
+
+
+cycle 856
+PC: 0x0000001C
+
+
+cycle 857
+PC: 0x00000020
+
+
+cycle 858
+PC: 0x00000024
+
+
+cycle 859
+PC: 0x00000028
+
+
+cycle 860
+PC: 0x0000002C
+
+
+cycle 861
+PC: 0x00000030
+
+
+cycle 862
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 863
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 864
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 865
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 866
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 867
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 868
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 869
+PC: 0x00000050
+
+
+cycle 870
+PC: 0x00000054
+
+
+cycle 871
+PC: 0x00000058
+
+
+cycle 872
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 873
+$23: 0x0000000F
+PC: 0x00000060
+
+
+cycle 874
+PC: 0x00000064
+
+
+cycle 875
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 876
+PC: 0x0000006C
+
+
+cycle 877
+PC: 0x00000000
+
+
+cycle 878
+PC: 0x00000004
+
+
+cycle 879
+PC: 0x00000008
+
+
+cycle 880
+PC: 0x0000000C
+
+
+cycle 881
+PC: 0x00000010
+
+
+cycle 882
+PC: 0x00000014
+
+
+cycle 883
+PC: 0x00000018
+
+
+cycle 884
+PC: 0x0000001C
+
+
+cycle 885
+PC: 0x00000020
+
+
+cycle 886
+PC: 0x00000024
+
+
+cycle 887
+PC: 0x00000028
+
+
+cycle 888
+PC: 0x0000002C
+
+
+cycle 889
+PC: 0x00000030
+
+
+cycle 890
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 891
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 892
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 893
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 894
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 895
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 896
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 897
+PC: 0x00000050
+
+
+cycle 898
+PC: 0x00000054
+
+
+cycle 899
+PC: 0x00000058
+
+
+cycle 900
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 901
+$23: 0x00000010
+PC: 0x00000060
+
+
+cycle 902
+PC: 0x00000064
+
+
+cycle 903
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 904
+PC: 0x00000070
+
+
+cycle 905
+$09: 0xFFFFFFFF
+PC: 0x00000074
+
+
+cycle 906
+$08: 0x80000000
+PC: 0x00000078
+
+
+cycle 907
+PC: 0x00000080
+
+
+cycle 908
+PC: 0x00000084
+
+
+cycle 909
+PC: 0x00000088
+
+
+cycle 910
+PC: 0x0000008C
+
+
+cycle 911
+PC: 0x00000090
+
+
+cycle 912
+PC: 0x00000094
+
+
+cycle 913
+PC: 0x00000098
+
+
+cycle 914
+PC: 0x0000009C
+
+
+cycle 915
+PC: 0x000000A0
+
+
+cycle 916
+PC: 0x000000A4
+
+
+cycle 917
+PC: 0x000000A8
+
+
+cycle 918
+PC: 0x000000AC
+
+
+cycle 919
+$09: 0x00000000
+PC: 0x000000B0
+
+
+cycle 920
+$22: 0x00000002
+PC: 0x000000B4
+
+
+cycle 921
+$23: 0x00000000
+PC: 0x000000B8
+
+
+cycle 922
+$08: 0x00000004
+PC: 0x000000BC
+
+
+cycle 923
+PC: 0x000000C0
+
+
+cycle 924
+PC: 0x00000000
+
+
+cycle 925
+PC: 0x00000004
+
+
+cycle 926
+PC: 0x00000008
+
+
+cycle 927
+PC: 0x0000000C
+
+
+cycle 928
+PC: 0x00000010
+
+
+cycle 929
+PC: 0x00000014
+
+
+cycle 930
+PC: 0x00000018
+
+
+cycle 931
+PC: 0x0000001C
+
+
+cycle 932
+PC: 0x00000020
+
+
+cycle 933
+PC: 0x00000024
+
+
+cycle 934
+PC: 0x00000028
+
+
+cycle 935
+PC: 0x0000002C
+
+
+cycle 936
+PC: 0x00000030
+
+
+cycle 937
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 938
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 939
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 940
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 941
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 942
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 943
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 944
+PC: 0x00000050
+
+
+cycle 945
+PC: 0x00000054
+
+
+cycle 946
+PC: 0x00000058
+
+
+cycle 947
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 948
+$23: 0x00000001
+PC: 0x00000060
+
+
+cycle 949
+PC: 0x00000064
+
+
+cycle 950
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 951
+PC: 0x0000006C
+
+
+cycle 952
+PC: 0x00000000
+
+
+cycle 953
+PC: 0x00000004
+
+
+cycle 954
+PC: 0x00000008
+
+
+cycle 955
+PC: 0x0000000C
+
+
+cycle 956
+PC: 0x00000010
+
+
+cycle 957
+PC: 0x00000014
+
+
+cycle 958
+PC: 0x00000018
+
+
+cycle 959
+PC: 0x0000001C
+
+
+cycle 960
+PC: 0x00000020
+
+
+cycle 961
+PC: 0x00000024
+
+
+cycle 962
+PC: 0x00000028
+
+
+cycle 963
+PC: 0x0000002C
+
+
+cycle 964
+PC: 0x00000030
+
+
+cycle 965
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 966
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 967
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 968
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 969
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 970
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 971
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 972
+PC: 0x00000050
+
+
+cycle 973
+PC: 0x00000054
+
+
+cycle 974
+PC: 0x00000058
+
+
+cycle 975
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 976
+$23: 0x00000002
+PC: 0x00000060
+
+
+cycle 977
+PC: 0x00000064
+
+
+cycle 978
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 979
+PC: 0x0000006C
+
+
+cycle 980
+PC: 0x00000000
+
+
+cycle 981
+PC: 0x00000004
+
+
+cycle 982
+PC: 0x00000008
+
+
+cycle 983
+PC: 0x0000000C
+
+
+cycle 984
+PC: 0x00000010
+
+
+cycle 985
+PC: 0x00000014
+
+
+cycle 986
+PC: 0x00000018
+
+
+cycle 987
+PC: 0x0000001C
+
+
+cycle 988
+PC: 0x00000020
+
+
+cycle 989
+PC: 0x00000024
+
+
+cycle 990
+PC: 0x00000028
+
+
+cycle 991
+PC: 0x0000002C
+
+
+cycle 992
+PC: 0x00000030
+
+
+cycle 993
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 994
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 995
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 996
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 997
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 998
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 999
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 1000
+PC: 0x00000050
+
+
+cycle 1001
+PC: 0x00000054
+
+
+cycle 1002
+PC: 0x00000058
+
+
+cycle 1003
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 1004
+$23: 0x00000003
+PC: 0x00000060
+
+
+cycle 1005
+PC: 0x00000064
+
+
+cycle 1006
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 1007
+PC: 0x0000006C
+
+
+cycle 1008
+PC: 0x00000000
+
+
+cycle 1009
+PC: 0x00000004
+
+
+cycle 1010
+PC: 0x00000008
+
+
+cycle 1011
+PC: 0x0000000C
+
+
+cycle 1012
+PC: 0x00000010
+
+
+cycle 1013
+PC: 0x00000014
+
+
+cycle 1014
+PC: 0x00000018
+
+
+cycle 1015
+PC: 0x0000001C
+
+
+cycle 1016
+PC: 0x00000020
+
+
+cycle 1017
+PC: 0x00000024
+
+
+cycle 1018
+PC: 0x00000028
+
+
+cycle 1019
+PC: 0x0000002C
+
+
+cycle 1020
+PC: 0x00000030
+
+
+cycle 1021
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 1022
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 1023
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 1024
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 1025
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 1026
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 1027
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 1028
+PC: 0x00000050
+
+
+cycle 1029
+PC: 0x00000054
+
+
+cycle 1030
+PC: 0x00000058
+
+
+cycle 1031
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 1032
+$23: 0x00000004
+PC: 0x00000060
+
+
+cycle 1033
+PC: 0x00000064
+
+
+cycle 1034
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 1035
+PC: 0x0000006C
+
+
+cycle 1036
+PC: 0x00000000
+
+
+cycle 1037
+PC: 0x00000004
+
+
+cycle 1038
+PC: 0x00000008
+
+
+cycle 1039
+PC: 0x0000000C
+
+
+cycle 1040
+PC: 0x00000010
+
+
+cycle 1041
+PC: 0x00000014
+
+
+cycle 1042
+PC: 0x00000018
+
+
+cycle 1043
+PC: 0x0000001C
+
+
+cycle 1044
+PC: 0x00000020
+
+
+cycle 1045
+PC: 0x00000024
+
+
+cycle 1046
+PC: 0x00000028
+
+
+cycle 1047
+PC: 0x0000002C
+
+
+cycle 1048
+PC: 0x00000030
+
+
+cycle 1049
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 1050
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 1051
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 1052
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 1053
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 1054
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 1055
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 1056
+PC: 0x00000050
+
+
+cycle 1057
+PC: 0x00000054
+
+
+cycle 1058
+PC: 0x00000058
+
+
+cycle 1059
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 1060
+$23: 0x00000005
+PC: 0x00000060
+
+
+cycle 1061
+PC: 0x00000064
+
+
+cycle 1062
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 1063
+PC: 0x0000006C
+
+
+cycle 1064
+PC: 0x00000000
+
+
+cycle 1065
+PC: 0x00000004
+
+
+cycle 1066
+PC: 0x00000008
+
+
+cycle 1067
+PC: 0x0000000C
+
+
+cycle 1068
+PC: 0x00000010
+
+
+cycle 1069
+PC: 0x00000014
+
+
+cycle 1070
+PC: 0x00000018
+
+
+cycle 1071
+PC: 0x0000001C
+
+
+cycle 1072
+PC: 0x00000020
+
+
+cycle 1073
+PC: 0x00000024
+
+
+cycle 1074
+PC: 0x00000028
+
+
+cycle 1075
+PC: 0x0000002C
+
+
+cycle 1076
+PC: 0x00000030
+
+
+cycle 1077
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 1078
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 1079
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 1080
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 1081
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 1082
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 1083
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 1084
+PC: 0x00000050
+
+
+cycle 1085
+PC: 0x00000054
+
+
+cycle 1086
+PC: 0x00000058
+
+
+cycle 1087
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 1088
+$23: 0x00000006
+PC: 0x00000060
+
+
+cycle 1089
+PC: 0x00000064
+
+
+cycle 1090
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 1091
+PC: 0x0000006C
+
+
+cycle 1092
+PC: 0x00000000
+
+
+cycle 1093
+PC: 0x00000004
+
+
+cycle 1094
+PC: 0x00000008
+
+
+cycle 1095
+PC: 0x0000000C
+
+
+cycle 1096
+PC: 0x00000010
+
+
+cycle 1097
+PC: 0x00000014
+
+
+cycle 1098
+PC: 0x00000018
+
+
+cycle 1099
+PC: 0x0000001C
+
+
+cycle 1100
+PC: 0x00000020
+
+
+cycle 1101
+PC: 0x00000024
+
+
+cycle 1102
+PC: 0x00000028
+
+
+cycle 1103
+PC: 0x0000002C
+
+
+cycle 1104
+PC: 0x00000030
+
+
+cycle 1105
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 1106
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 1107
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 1108
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 1109
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 1110
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 1111
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 1112
+PC: 0x00000050
+
+
+cycle 1113
+PC: 0x00000054
+
+
+cycle 1114
+PC: 0x00000058
+
+
+cycle 1115
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 1116
+$23: 0x00000007
+PC: 0x00000060
+
+
+cycle 1117
+PC: 0x00000064
+
+
+cycle 1118
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 1119
+PC: 0x0000006C
+
+
+cycle 1120
+PC: 0x00000000
+
+
+cycle 1121
+PC: 0x00000004
+
+
+cycle 1122
+PC: 0x00000008
+
+
+cycle 1123
+PC: 0x0000000C
+
+
+cycle 1124
+PC: 0x00000010
+
+
+cycle 1125
+PC: 0x00000014
+
+
+cycle 1126
+PC: 0x00000018
+
+
+cycle 1127
+PC: 0x0000001C
+
+
+cycle 1128
+PC: 0x00000020
+
+
+cycle 1129
+PC: 0x00000024
+
+
+cycle 1130
+PC: 0x00000028
+
+
+cycle 1131
+PC: 0x0000002C
+
+
+cycle 1132
+PC: 0x00000030
+
+
+cycle 1133
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 1134
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 1135
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 1136
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 1137
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 1138
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 1139
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 1140
+PC: 0x00000050
+
+
+cycle 1141
+PC: 0x00000054
+
+
+cycle 1142
+PC: 0x00000058
+
+
+cycle 1143
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 1144
+$23: 0x00000008
+PC: 0x00000060
+
+
+cycle 1145
+PC: 0x00000064
+
+
+cycle 1146
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 1147
+PC: 0x0000006C
+
+
+cycle 1148
+PC: 0x00000000
+
+
+cycle 1149
+PC: 0x00000004
+
+
+cycle 1150
+PC: 0x00000008
+
+
+cycle 1151
+PC: 0x0000000C
+
+
+cycle 1152
+PC: 0x00000010
+
+
+cycle 1153
+PC: 0x00000014
+
+
+cycle 1154
+PC: 0x00000018
+
+
+cycle 1155
+PC: 0x0000001C
+
+
+cycle 1156
+PC: 0x00000020
+
+
+cycle 1157
+PC: 0x00000024
+
+
+cycle 1158
+PC: 0x00000028
+
+
+cycle 1159
+PC: 0x0000002C
+
+
+cycle 1160
+PC: 0x00000030
+
+
+cycle 1161
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 1162
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 1163
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 1164
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 1165
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 1166
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 1167
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 1168
+PC: 0x00000050
+
+
+cycle 1169
+PC: 0x00000054
+
+
+cycle 1170
+PC: 0x00000058
+
+
+cycle 1171
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 1172
+$23: 0x00000009
+PC: 0x00000060
+
+
+cycle 1173
+PC: 0x00000064
+
+
+cycle 1174
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 1175
+PC: 0x0000006C
+
+
+cycle 1176
+PC: 0x00000000
+
+
+cycle 1177
+PC: 0x00000004
+
+
+cycle 1178
+PC: 0x00000008
+
+
+cycle 1179
+PC: 0x0000000C
+
+
+cycle 1180
+PC: 0x00000010
+
+
+cycle 1181
+PC: 0x00000014
+
+
+cycle 1182
+PC: 0x00000018
+
+
+cycle 1183
+PC: 0x0000001C
+
+
+cycle 1184
+PC: 0x00000020
+
+
+cycle 1185
+PC: 0x00000024
+
+
+cycle 1186
+PC: 0x00000028
+
+
+cycle 1187
+PC: 0x0000002C
+
+
+cycle 1188
+PC: 0x00000030
+
+
+cycle 1189
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 1190
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 1191
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 1192
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 1193
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 1194
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 1195
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 1196
+PC: 0x00000050
+
+
+cycle 1197
+PC: 0x00000054
+
+
+cycle 1198
+PC: 0x00000058
+
+
+cycle 1199
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 1200
+$23: 0x0000000A
+PC: 0x00000060
+
+
+cycle 1201
+PC: 0x00000064
+
+
+cycle 1202
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 1203
+PC: 0x0000006C
+
+
+cycle 1204
+PC: 0x00000000
+
+
+cycle 1205
+PC: 0x00000004
+
+
+cycle 1206
+PC: 0x00000008
+
+
+cycle 1207
+PC: 0x0000000C
+
+
+cycle 1208
+PC: 0x00000010
+
+
+cycle 1209
+PC: 0x00000014
+
+
+cycle 1210
+PC: 0x00000018
+
+
+cycle 1211
+PC: 0x0000001C
+
+
+cycle 1212
+PC: 0x00000020
+
+
+cycle 1213
+PC: 0x00000024
+
+
+cycle 1214
+PC: 0x00000028
+
+
+cycle 1215
+PC: 0x0000002C
+
+
+cycle 1216
+PC: 0x00000030
+
+
+cycle 1217
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 1218
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 1219
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 1220
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 1221
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 1222
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 1223
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 1224
+PC: 0x00000050
+
+
+cycle 1225
+PC: 0x00000054
+
+
+cycle 1226
+PC: 0x00000058
+
+
+cycle 1227
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 1228
+$23: 0x0000000B
+PC: 0x00000060
+
+
+cycle 1229
+PC: 0x00000064
+
+
+cycle 1230
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 1231
+PC: 0x0000006C
+
+
+cycle 1232
+PC: 0x00000000
+
+
+cycle 1233
+PC: 0x00000004
+
+
+cycle 1234
+PC: 0x00000008
+
+
+cycle 1235
+PC: 0x0000000C
+
+
+cycle 1236
+PC: 0x00000010
+
+
+cycle 1237
+PC: 0x00000014
+
+
+cycle 1238
+PC: 0x00000018
+
+
+cycle 1239
+PC: 0x0000001C
+
+
+cycle 1240
+PC: 0x00000020
+
+
+cycle 1241
+PC: 0x00000024
+
+
+cycle 1242
+PC: 0x00000028
+
+
+cycle 1243
+PC: 0x0000002C
+
+
+cycle 1244
+PC: 0x00000030
+
+
+cycle 1245
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 1246
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 1247
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 1248
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 1249
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 1250
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 1251
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 1252
+PC: 0x00000050
+
+
+cycle 1253
+PC: 0x00000054
+
+
+cycle 1254
+PC: 0x00000058
+
+
+cycle 1255
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 1256
+$23: 0x0000000C
+PC: 0x00000060
+
+
+cycle 1257
+PC: 0x00000064
+
+
+cycle 1258
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 1259
+PC: 0x0000006C
+
+
+cycle 1260
+PC: 0x00000000
+
+
+cycle 1261
+PC: 0x00000004
+
+
+cycle 1262
+PC: 0x00000008
+
+
+cycle 1263
+PC: 0x0000000C
+
+
+cycle 1264
+PC: 0x00000010
+
+
+cycle 1265
+PC: 0x00000014
+
+
+cycle 1266
+PC: 0x00000018
+
+
+cycle 1267
+PC: 0x0000001C
+
+
+cycle 1268
+PC: 0x00000020
+
+
+cycle 1269
+PC: 0x00000024
+
+
+cycle 1270
+PC: 0x00000028
+
+
+cycle 1271
+PC: 0x0000002C
+
+
+cycle 1272
+PC: 0x00000030
+
+
+cycle 1273
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 1274
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 1275
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 1276
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 1277
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 1278
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 1279
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 1280
+PC: 0x00000050
+
+
+cycle 1281
+PC: 0x00000054
+
+
+cycle 1282
+PC: 0x00000058
+
+
+cycle 1283
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 1284
+$23: 0x0000000D
+PC: 0x00000060
+
+
+cycle 1285
+PC: 0x00000064
+
+
+cycle 1286
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 1287
+PC: 0x0000006C
+
+
+cycle 1288
+PC: 0x00000000
+
+
+cycle 1289
+PC: 0x00000004
+
+
+cycle 1290
+PC: 0x00000008
+
+
+cycle 1291
+PC: 0x0000000C
+
+
+cycle 1292
+PC: 0x00000010
+
+
+cycle 1293
+PC: 0x00000014
+
+
+cycle 1294
+PC: 0x00000018
+
+
+cycle 1295
+PC: 0x0000001C
+
+
+cycle 1296
+PC: 0x00000020
+
+
+cycle 1297
+PC: 0x00000024
+
+
+cycle 1298
+PC: 0x00000028
+
+
+cycle 1299
+PC: 0x0000002C
+
+
+cycle 1300
+PC: 0x00000030
+
+
+cycle 1301
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 1302
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 1303
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 1304
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 1305
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 1306
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 1307
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 1308
+PC: 0x00000050
+
+
+cycle 1309
+PC: 0x00000054
+
+
+cycle 1310
+PC: 0x00000058
+
+
+cycle 1311
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 1312
+$23: 0x0000000E
+PC: 0x00000060
+
+
+cycle 1313
+PC: 0x00000064
+
+
+cycle 1314
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 1315
+PC: 0x0000006C
+
+
+cycle 1316
+PC: 0x00000000
+
+
+cycle 1317
+PC: 0x00000004
+
+
+cycle 1318
+PC: 0x00000008
+
+
+cycle 1319
+PC: 0x0000000C
+
+
+cycle 1320
+PC: 0x00000010
+
+
+cycle 1321
+PC: 0x00000014
+
+
+cycle 1322
+PC: 0x00000018
+
+
+cycle 1323
+PC: 0x0000001C
+
+
+cycle 1324
+PC: 0x00000020
+
+
+cycle 1325
+PC: 0x00000024
+
+
+cycle 1326
+PC: 0x00000028
+
+
+cycle 1327
+PC: 0x0000002C
+
+
+cycle 1328
+PC: 0x00000030
+
+
+cycle 1329
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 1330
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 1331
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 1332
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 1333
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 1334
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 1335
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 1336
+PC: 0x00000050
+
+
+cycle 1337
+PC: 0x00000054
+
+
+cycle 1338
+PC: 0x00000058
+
+
+cycle 1339
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 1340
+$23: 0x0000000F
+PC: 0x00000060
+
+
+cycle 1341
+PC: 0x00000064
+
+
+cycle 1342
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 1343
+PC: 0x0000006C
+
+
+cycle 1344
+PC: 0x00000000
+
+
+cycle 1345
+PC: 0x00000004
+
+
+cycle 1346
+PC: 0x00000008
+
+
+cycle 1347
+PC: 0x0000000C
+
+
+cycle 1348
+PC: 0x00000010
+
+
+cycle 1349
+PC: 0x00000014
+
+
+cycle 1350
+PC: 0x00000018
+
+
+cycle 1351
+PC: 0x0000001C
+
+
+cycle 1352
+PC: 0x00000020
+
+
+cycle 1353
+PC: 0x00000024
+
+
+cycle 1354
+PC: 0x00000028
+
+
+cycle 1355
+PC: 0x0000002C
+
+
+cycle 1356
+PC: 0x00000030
+
+
+cycle 1357
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 1358
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 1359
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 1360
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 1361
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 1362
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 1363
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 1364
+PC: 0x00000050
+
+
+cycle 1365
+PC: 0x00000054
+
+
+cycle 1366
+PC: 0x00000058
+
+
+cycle 1367
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 1368
+$23: 0x00000010
+PC: 0x00000060
+
+
+cycle 1369
+PC: 0x00000064
+
+
+cycle 1370
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 1371
+PC: 0x00000070
+
+
+cycle 1372
+$09: 0xFFFFFFFF
+PC: 0x00000074
+
+
+cycle 1373
+$08: 0x80000000
+PC: 0x00000078
+
+
+cycle 1374
+PC: 0x00000080
+
+
+cycle 1375
+PC: 0x00000084
+
+
+cycle 1376
+PC: 0x00000088
+
+
+cycle 1377
+PC: 0x0000008C
+
+
+cycle 1378
+PC: 0x00000090
+
+
+cycle 1379
+PC: 0x00000094
+
+
+cycle 1380
+PC: 0x00000098
+
+
+cycle 1381
+PC: 0x0000009C
+
+
+cycle 1382
+PC: 0x000000A0
+
+
+cycle 1383
+PC: 0x000000A4
+
+
+cycle 1384
+PC: 0x000000A8
+
+
+cycle 1385
+PC: 0x000000AC
+
+
+cycle 1386
+$09: 0x00000000
+PC: 0x000000B0
+
+
+cycle 1387
+$22: 0x00000003
+PC: 0x000000B4
+
+
+cycle 1388
+$23: 0x00000000
+PC: 0x000000B8
+
+
+cycle 1389
+$08: 0x00000004
+PC: 0x000000BC
+
+
+cycle 1390
+PC: 0x000000C0
+
+
+cycle 1391
+PC: 0x00000000
+
+
+cycle 1392
+PC: 0x00000004
+
+
+cycle 1393
+PC: 0x00000008
+
+
+cycle 1394
+PC: 0x0000000C
+
+
+cycle 1395
+PC: 0x00000010
+
+
+cycle 1396
+PC: 0x00000014
+
+
+cycle 1397
+PC: 0x00000018
+
+
+cycle 1398
+PC: 0x0000001C
+
+
+cycle 1399
+PC: 0x00000020
+
+
+cycle 1400
+PC: 0x00000024
+
+
+cycle 1401
+PC: 0x00000028
+
+
+cycle 1402
+PC: 0x0000002C
+
+
+cycle 1403
+PC: 0x00000030
+
+
+cycle 1404
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 1405
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 1406
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 1407
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 1408
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 1409
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 1410
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 1411
+PC: 0x00000050
+
+
+cycle 1412
+PC: 0x00000054
+
+
+cycle 1413
+PC: 0x00000058
+
+
+cycle 1414
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 1415
+$23: 0x00000001
+PC: 0x00000060
+
+
+cycle 1416
+PC: 0x00000064
+
+
+cycle 1417
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 1418
+PC: 0x0000006C
+
+
+cycle 1419
+PC: 0x00000000
+
+
+cycle 1420
+PC: 0x00000004
+
+
+cycle 1421
+PC: 0x00000008
+
+
+cycle 1422
+PC: 0x0000000C
+
+
+cycle 1423
+PC: 0x00000010
+
+
+cycle 1424
+PC: 0x00000014
+
+
+cycle 1425
+PC: 0x00000018
+
+
+cycle 1426
+PC: 0x0000001C
+
+
+cycle 1427
+PC: 0x00000020
+
+
+cycle 1428
+PC: 0x00000024
+
+
+cycle 1429
+PC: 0x00000028
+
+
+cycle 1430
+PC: 0x0000002C
+
+
+cycle 1431
+PC: 0x00000030
+
+
+cycle 1432
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 1433
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 1434
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 1435
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 1436
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 1437
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 1438
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 1439
+PC: 0x00000050
+
+
+cycle 1440
+PC: 0x00000054
+
+
+cycle 1441
+PC: 0x00000058
+
+
+cycle 1442
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 1443
+$23: 0x00000002
+PC: 0x00000060
+
+
+cycle 1444
+PC: 0x00000064
+
+
+cycle 1445
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 1446
+PC: 0x0000006C
+
+
+cycle 1447
+PC: 0x00000000
+
+
+cycle 1448
+PC: 0x00000004
+
+
+cycle 1449
+PC: 0x00000008
+
+
+cycle 1450
+PC: 0x0000000C
+
+
+cycle 1451
+PC: 0x00000010
+
+
+cycle 1452
+PC: 0x00000014
+
+
+cycle 1453
+PC: 0x00000018
+
+
+cycle 1454
+PC: 0x0000001C
+
+
+cycle 1455
+PC: 0x00000020
+
+
+cycle 1456
+PC: 0x00000024
+
+
+cycle 1457
+PC: 0x00000028
+
+
+cycle 1458
+PC: 0x0000002C
+
+
+cycle 1459
+PC: 0x00000030
+
+
+cycle 1460
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 1461
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 1462
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 1463
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 1464
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 1465
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 1466
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 1467
+PC: 0x00000050
+
+
+cycle 1468
+PC: 0x00000054
+
+
+cycle 1469
+PC: 0x00000058
+
+
+cycle 1470
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 1471
+$23: 0x00000003
+PC: 0x00000060
+
+
+cycle 1472
+PC: 0x00000064
+
+
+cycle 1473
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 1474
+PC: 0x0000006C
+
+
+cycle 1475
+PC: 0x00000000
+
+
+cycle 1476
+PC: 0x00000004
+
+
+cycle 1477
+PC: 0x00000008
+
+
+cycle 1478
+PC: 0x0000000C
+
+
+cycle 1479
+PC: 0x00000010
+
+
+cycle 1480
+PC: 0x00000014
+
+
+cycle 1481
+PC: 0x00000018
+
+
+cycle 1482
+PC: 0x0000001C
+
+
+cycle 1483
+PC: 0x00000020
+
+
+cycle 1484
+PC: 0x00000024
+
+
+cycle 1485
+PC: 0x00000028
+
+
+cycle 1486
+PC: 0x0000002C
+
+
+cycle 1487
+PC: 0x00000030
+
+
+cycle 1488
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 1489
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 1490
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 1491
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 1492
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 1493
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 1494
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 1495
+PC: 0x00000050
+
+
+cycle 1496
+PC: 0x00000054
+
+
+cycle 1497
+PC: 0x00000058
+
+
+cycle 1498
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 1499
+$23: 0x00000004
+PC: 0x00000060
+
+
+cycle 1500
+PC: 0x00000064
+
+
+cycle 1501
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 1502
+PC: 0x0000006C
+
+
+cycle 1503
+PC: 0x00000000
+
+
+cycle 1504
+PC: 0x00000004
+
+
+cycle 1505
+PC: 0x00000008
+
+
+cycle 1506
+PC: 0x0000000C
+
+
+cycle 1507
+PC: 0x00000010
+
+
+cycle 1508
+PC: 0x00000014
+
+
+cycle 1509
+PC: 0x00000018
+
+
+cycle 1510
+PC: 0x0000001C
+
+
+cycle 1511
+PC: 0x00000020
+
+
+cycle 1512
+PC: 0x00000024
+
+
+cycle 1513
+PC: 0x00000028
+
+
+cycle 1514
+PC: 0x0000002C
+
+
+cycle 1515
+PC: 0x00000030
+
+
+cycle 1516
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 1517
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 1518
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 1519
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 1520
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 1521
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 1522
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 1523
+PC: 0x00000050
+
+
+cycle 1524
+PC: 0x00000054
+
+
+cycle 1525
+PC: 0x00000058
+
+
+cycle 1526
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 1527
+$23: 0x00000005
+PC: 0x00000060
+
+
+cycle 1528
+PC: 0x00000064
+
+
+cycle 1529
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 1530
+PC: 0x0000006C
+
+
+cycle 1531
+PC: 0x00000000
+
+
+cycle 1532
+PC: 0x00000004
+
+
+cycle 1533
+PC: 0x00000008
+
+
+cycle 1534
+PC: 0x0000000C
+
+
+cycle 1535
+PC: 0x00000010
+
+
+cycle 1536
+PC: 0x00000014
+
+
+cycle 1537
+PC: 0x00000018
+
+
+cycle 1538
+PC: 0x0000001C
+
+
+cycle 1539
+PC: 0x00000020
+
+
+cycle 1540
+PC: 0x00000024
+
+
+cycle 1541
+PC: 0x00000028
+
+
+cycle 1542
+PC: 0x0000002C
+
+
+cycle 1543
+PC: 0x00000030
+
+
+cycle 1544
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 1545
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 1546
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 1547
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 1548
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 1549
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 1550
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 1551
+PC: 0x00000050
+
+
+cycle 1552
+PC: 0x00000054
+
+
+cycle 1553
+PC: 0x00000058
+
+
+cycle 1554
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 1555
+$23: 0x00000006
+PC: 0x00000060
+
+
+cycle 1556
+PC: 0x00000064
+
+
+cycle 1557
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 1558
+PC: 0x0000006C
+
+
+cycle 1559
+PC: 0x00000000
+
+
+cycle 1560
+PC: 0x00000004
+
+
+cycle 1561
+PC: 0x00000008
+
+
+cycle 1562
+PC: 0x0000000C
+
+
+cycle 1563
+PC: 0x00000010
+
+
+cycle 1564
+PC: 0x00000014
+
+
+cycle 1565
+PC: 0x00000018
+
+
+cycle 1566
+PC: 0x0000001C
+
+
+cycle 1567
+PC: 0x00000020
+
+
+cycle 1568
+PC: 0x00000024
+
+
+cycle 1569
+PC: 0x00000028
+
+
+cycle 1570
+PC: 0x0000002C
+
+
+cycle 1571
+PC: 0x00000030
+
+
+cycle 1572
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 1573
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 1574
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 1575
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 1576
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 1577
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 1578
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 1579
+PC: 0x00000050
+
+
+cycle 1580
+PC: 0x00000054
+
+
+cycle 1581
+PC: 0x00000058
+
+
+cycle 1582
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 1583
+$23: 0x00000007
+PC: 0x00000060
+
+
+cycle 1584
+PC: 0x00000064
+
+
+cycle 1585
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 1586
+PC: 0x0000006C
+
+
+cycle 1587
+PC: 0x00000000
+
+
+cycle 1588
+PC: 0x00000004
+
+
+cycle 1589
+PC: 0x00000008
+
+
+cycle 1590
+PC: 0x0000000C
+
+
+cycle 1591
+PC: 0x00000010
+
+
+cycle 1592
+PC: 0x00000014
+
+
+cycle 1593
+PC: 0x00000018
+
+
+cycle 1594
+PC: 0x0000001C
+
+
+cycle 1595
+PC: 0x00000020
+
+
+cycle 1596
+PC: 0x00000024
+
+
+cycle 1597
+PC: 0x00000028
+
+
+cycle 1598
+PC: 0x0000002C
+
+
+cycle 1599
+PC: 0x00000030
+
+
+cycle 1600
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 1601
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 1602
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 1603
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 1604
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 1605
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 1606
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 1607
+PC: 0x00000050
+
+
+cycle 1608
+PC: 0x00000054
+
+
+cycle 1609
+PC: 0x00000058
+
+
+cycle 1610
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 1611
+$23: 0x00000008
+PC: 0x00000060
+
+
+cycle 1612
+PC: 0x00000064
+
+
+cycle 1613
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 1614
+PC: 0x0000006C
+
+
+cycle 1615
+PC: 0x00000000
+
+
+cycle 1616
+PC: 0x00000004
+
+
+cycle 1617
+PC: 0x00000008
+
+
+cycle 1618
+PC: 0x0000000C
+
+
+cycle 1619
+PC: 0x00000010
+
+
+cycle 1620
+PC: 0x00000014
+
+
+cycle 1621
+PC: 0x00000018
+
+
+cycle 1622
+PC: 0x0000001C
+
+
+cycle 1623
+PC: 0x00000020
+
+
+cycle 1624
+PC: 0x00000024
+
+
+cycle 1625
+PC: 0x00000028
+
+
+cycle 1626
+PC: 0x0000002C
+
+
+cycle 1627
+PC: 0x00000030
+
+
+cycle 1628
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 1629
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 1630
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 1631
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 1632
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 1633
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 1634
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 1635
+PC: 0x00000050
+
+
+cycle 1636
+PC: 0x00000054
+
+
+cycle 1637
+PC: 0x00000058
+
+
+cycle 1638
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 1639
+$23: 0x00000009
+PC: 0x00000060
+
+
+cycle 1640
+PC: 0x00000064
+
+
+cycle 1641
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 1642
+PC: 0x0000006C
+
+
+cycle 1643
+PC: 0x00000000
+
+
+cycle 1644
+PC: 0x00000004
+
+
+cycle 1645
+PC: 0x00000008
+
+
+cycle 1646
+PC: 0x0000000C
+
+
+cycle 1647
+PC: 0x00000010
+
+
+cycle 1648
+PC: 0x00000014
+
+
+cycle 1649
+PC: 0x00000018
+
+
+cycle 1650
+PC: 0x0000001C
+
+
+cycle 1651
+PC: 0x00000020
+
+
+cycle 1652
+PC: 0x00000024
+
+
+cycle 1653
+PC: 0x00000028
+
+
+cycle 1654
+PC: 0x0000002C
+
+
+cycle 1655
+PC: 0x00000030
+
+
+cycle 1656
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 1657
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 1658
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 1659
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 1660
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 1661
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 1662
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 1663
+PC: 0x00000050
+
+
+cycle 1664
+PC: 0x00000054
+
+
+cycle 1665
+PC: 0x00000058
+
+
+cycle 1666
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 1667
+$23: 0x0000000A
+PC: 0x00000060
+
+
+cycle 1668
+PC: 0x00000064
+
+
+cycle 1669
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 1670
+PC: 0x0000006C
+
+
+cycle 1671
+PC: 0x00000000
+
+
+cycle 1672
+PC: 0x00000004
+
+
+cycle 1673
+PC: 0x00000008
+
+
+cycle 1674
+PC: 0x0000000C
+
+
+cycle 1675
+PC: 0x00000010
+
+
+cycle 1676
+PC: 0x00000014
+
+
+cycle 1677
+PC: 0x00000018
+
+
+cycle 1678
+PC: 0x0000001C
+
+
+cycle 1679
+PC: 0x00000020
+
+
+cycle 1680
+PC: 0x00000024
+
+
+cycle 1681
+PC: 0x00000028
+
+
+cycle 1682
+PC: 0x0000002C
+
+
+cycle 1683
+PC: 0x00000030
+
+
+cycle 1684
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 1685
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 1686
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 1687
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 1688
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 1689
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 1690
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 1691
+PC: 0x00000050
+
+
+cycle 1692
+PC: 0x00000054
+
+
+cycle 1693
+PC: 0x00000058
+
+
+cycle 1694
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 1695
+$23: 0x0000000B
+PC: 0x00000060
+
+
+cycle 1696
+PC: 0x00000064
+
+
+cycle 1697
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 1698
+PC: 0x0000006C
+
+
+cycle 1699
+PC: 0x00000000
+
+
+cycle 1700
+PC: 0x00000004
+
+
+cycle 1701
+PC: 0x00000008
+
+
+cycle 1702
+PC: 0x0000000C
+
+
+cycle 1703
+PC: 0x00000010
+
+
+cycle 1704
+PC: 0x00000014
+
+
+cycle 1705
+PC: 0x00000018
+
+
+cycle 1706
+PC: 0x0000001C
+
+
+cycle 1707
+PC: 0x00000020
+
+
+cycle 1708
+PC: 0x00000024
+
+
+cycle 1709
+PC: 0x00000028
+
+
+cycle 1710
+PC: 0x0000002C
+
+
+cycle 1711
+PC: 0x00000030
+
+
+cycle 1712
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 1713
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 1714
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 1715
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 1716
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 1717
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 1718
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 1719
+PC: 0x00000050
+
+
+cycle 1720
+PC: 0x00000054
+
+
+cycle 1721
+PC: 0x00000058
+
+
+cycle 1722
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 1723
+$23: 0x0000000C
+PC: 0x00000060
+
+
+cycle 1724
+PC: 0x00000064
+
+
+cycle 1725
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 1726
+PC: 0x0000006C
+
+
+cycle 1727
+PC: 0x00000000
+
+
+cycle 1728
+PC: 0x00000004
+
+
+cycle 1729
+PC: 0x00000008
+
+
+cycle 1730
+PC: 0x0000000C
+
+
+cycle 1731
+PC: 0x00000010
+
+
+cycle 1732
+PC: 0x00000014
+
+
+cycle 1733
+PC: 0x00000018
+
+
+cycle 1734
+PC: 0x0000001C
+
+
+cycle 1735
+PC: 0x00000020
+
+
+cycle 1736
+PC: 0x00000024
+
+
+cycle 1737
+PC: 0x00000028
+
+
+cycle 1738
+PC: 0x0000002C
+
+
+cycle 1739
+PC: 0x00000030
+
+
+cycle 1740
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 1741
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 1742
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 1743
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 1744
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 1745
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 1746
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 1747
+PC: 0x00000050
+
+
+cycle 1748
+PC: 0x00000054
+
+
+cycle 1749
+PC: 0x00000058
+
+
+cycle 1750
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 1751
+$23: 0x0000000D
+PC: 0x00000060
+
+
+cycle 1752
+PC: 0x00000064
+
+
+cycle 1753
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 1754
+PC: 0x0000006C
+
+
+cycle 1755
+PC: 0x00000000
+
+
+cycle 1756
+PC: 0x00000004
+
+
+cycle 1757
+PC: 0x00000008
+
+
+cycle 1758
+PC: 0x0000000C
+
+
+cycle 1759
+PC: 0x00000010
+
+
+cycle 1760
+PC: 0x00000014
+
+
+cycle 1761
+PC: 0x00000018
+
+
+cycle 1762
+PC: 0x0000001C
+
+
+cycle 1763
+PC: 0x00000020
+
+
+cycle 1764
+PC: 0x00000024
+
+
+cycle 1765
+PC: 0x00000028
+
+
+cycle 1766
+PC: 0x0000002C
+
+
+cycle 1767
+PC: 0x00000030
+
+
+cycle 1768
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 1769
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 1770
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 1771
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 1772
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 1773
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 1774
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 1775
+PC: 0x00000050
+
+
+cycle 1776
+PC: 0x00000054
+
+
+cycle 1777
+PC: 0x00000058
+
+
+cycle 1778
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 1779
+$23: 0x0000000E
+PC: 0x00000060
+
+
+cycle 1780
+PC: 0x00000064
+
+
+cycle 1781
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 1782
+PC: 0x0000006C
+
+
+cycle 1783
+PC: 0x00000000
+
+
+cycle 1784
+PC: 0x00000004
+
+
+cycle 1785
+PC: 0x00000008
+
+
+cycle 1786
+PC: 0x0000000C
+
+
+cycle 1787
+PC: 0x00000010
+
+
+cycle 1788
+PC: 0x00000014
+
+
+cycle 1789
+PC: 0x00000018
+
+
+cycle 1790
+PC: 0x0000001C
+
+
+cycle 1791
+PC: 0x00000020
+
+
+cycle 1792
+PC: 0x00000024
+
+
+cycle 1793
+PC: 0x00000028
+
+
+cycle 1794
+PC: 0x0000002C
+
+
+cycle 1795
+PC: 0x00000030
+
+
+cycle 1796
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 1797
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 1798
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 1799
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 1800
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 1801
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 1802
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 1803
+PC: 0x00000050
+
+
+cycle 1804
+PC: 0x00000054
+
+
+cycle 1805
+PC: 0x00000058
+
+
+cycle 1806
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 1807
+$23: 0x0000000F
+PC: 0x00000060
+
+
+cycle 1808
+PC: 0x00000064
+
+
+cycle 1809
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 1810
+PC: 0x0000006C
+
+
+cycle 1811
+PC: 0x00000000
+
+
+cycle 1812
+PC: 0x00000004
+
+
+cycle 1813
+PC: 0x00000008
+
+
+cycle 1814
+PC: 0x0000000C
+
+
+cycle 1815
+PC: 0x00000010
+
+
+cycle 1816
+PC: 0x00000014
+
+
+cycle 1817
+PC: 0x00000018
+
+
+cycle 1818
+PC: 0x0000001C
+
+
+cycle 1819
+PC: 0x00000020
+
+
+cycle 1820
+PC: 0x00000024
+
+
+cycle 1821
+PC: 0x00000028
+
+
+cycle 1822
+PC: 0x0000002C
+
+
+cycle 1823
+PC: 0x00000030
+
+
+cycle 1824
+$08: 0x80000006
+PC: 0x00000034
+
+
+cycle 1825
+$08: 0x00000006
+PC: 0x00000038
+
+
+cycle 1826
+$09: 0x8000000B
+PC: 0x0000003C
+
+
+cycle 1827
+$09: 0x0000000B
+PC: 0x00000040
+
+
+cycle 1828
+$08: 0xFFFFFFFF
+PC: 0x00000044
+
+
+cycle 1829
+$09: 0xFFFFFFFE
+PC: 0x00000048
+
+
+cycle 1830
+$08: 0xFFFFFFFD
+PC: 0x0000004C
+
+
+cycle 1831
+PC: 0x00000050
+
+
+cycle 1832
+PC: 0x00000054
+
+
+cycle 1833
+PC: 0x00000058
+
+
+cycle 1834
+$09: 0x00000001
+PC: 0x0000005C
+
+
+cycle 1835
+$23: 0x00000010
+PC: 0x00000060
+
+
+cycle 1836
+PC: 0x00000064
+
+
+cycle 1837
+$08: 0x00000010
+PC: 0x00000068
+
+
+cycle 1838
+PC: 0x00000070
+
+
+cycle 1839
+$09: 0xFFFFFFFF
+PC: 0x00000074
+
+
+cycle 1840
+$08: 0x80000000
+PC: 0x00000078
+
+
+cycle 1841
+PC: 0x00000080
+
+
+cycle 1842
+PC: 0x00000084
+
+
+cycle 1843
+PC: 0x00000088
+
+
+cycle 1844
+PC: 0x0000008C
+
+
+cycle 1845
+PC: 0x00000090
+
+
+cycle 1846
+PC: 0x00000094
+
+
+cycle 1847
+PC: 0x00000098
+
+
+cycle 1848
+PC: 0x0000009C
+
+
+cycle 1849
+PC: 0x000000A0
+
+
+cycle 1850
+PC: 0x000000A4
+
+
+cycle 1851
+PC: 0x000000A8
+
+
+cycle 1852
+PC: 0x000000AC
+
+
+cycle 1853
+$09: 0x00000000
+PC: 0x000000B0
+
+
+cycle 1854
+$22: 0x00000004
+PC: 0x000000B4
+
+
+cycle 1855
+$23: 0x00000000
+PC: 0x000000B8
+
+
+cycle 1856
+$08: 0x00000004
+PC: 0x000000BC
+
+
+cycle 1857
+PC: 0x000000C4
+
+
+cycle 1858
+$16: 0x7FFFFFFF
+PC: 0x000000C8
+
+
+cycle 1859
+$17: 0x80000000
+PC: 0x000000CC
+
+
+cycle 1860
+$18: 0x80000019
+PC: 0x000000D0
+
+
+cycle 1861
+$18: 0x00000019
+PC: 0x000000D4
+
+
+cycle 1862
+$19: 0x8000001D
+PC: 0x000000D8
+
+
+cycle 1863
+$19: 0x0000001D
+PC: 0x000000DC
+
+
+cycle 1864
+PC: 0x000000E0
+
+
+cycle 1865
+$08: 0x7FFFFFFF
+PC: 0x000000E4
+
+
+cycle 1866
+$09: 0xFFFFFFFF
+PC: 0x000000E8
+
+
+cycle 1867
+$10: 0x0000FFFF
+PC: 0x000000EC
+
+
+cycle 1868
+$11: 0xFFFFFFFF
+PC: 0x000000F0
+
+
+cycle 1869
+$12: 0x000000FF
+PC: 0x000000F4
+
+
+cycle 1870
+$13: 0x7FFFFFFE
+PC: 0x000000F8
+
+
+cycle 1871
+$14: 0x8000FFFE
+PC: 0x000000FC
+
+
+cycle 1872
+$15: 0x7FFFFFFE
+PC: 0x00000100
+
+
+cycle 1873
+$24: 0x800000FE
+PC: 0x00000104
+
+
+cycle 1874
+PC: 0x00000108
+
+
+cycle 1875
+PC: 0x0000010C
+
+
+cycle 1876
+PC: 0x00000110
+
+
+cycle 1877
+PC: 0x00000114
+
+
+cycle 1878
+PC: 0x00000118
+
+
+cycle 1879
+PC: 0x0000011C
+
+
+cycle 1880
+PC: 0x00000120
+
+
+cycle 1881
+$08: 0xFFFEFFFE
+PC: 0x00000124
+
+
+cycle 1882
+$09: 0xFEFEFEFE
+PC: 0x00000128
+
+
+cycle 1883
+PC: 0x0000012C
+
+
+cycle 1884
+PC: 0x00000130
+
+
+cycle 1885
+$08: 0xFEFDFEFC
+PC: 0x00000134
+
+
+cycle 1886
+PC: 0x00000138
+
+
+cycle 1887
+$08: 0x00000000
+PC: 0x0000013C
+
+
+cycle 1888
+$08: 0xFEFDFEFC
+PC: 0x00000140
+
+
+cycle 1889
+$08: 0x7EFDFEFB
+PC: 0x00000144
+
+
+cycle 1890
+$08: 0xFEFDFEFB
+PC: 0x00000148
+
+
+cycle 1891
+$08: 0x7EFDFEFA
+PC: 0x0000014C
+
+
+cycle 1892
+$08: 0xFEFDFEFA
+PC: 0x00000150
+
+
+cycle 1893
+$08: 0x7EFDFEF9
+PC: 0x00000154
+
+
+cycle 1894
+$08: 0xFEFDFEF9
+PC: 0x00000158
+
+
+cycle 1895
+$08: 0x7EFDFEF8
+PC: 0x0000015C
+
+
+cycle 1896
+$08: 0xFEFDFEF8
+PC: 0x00000160
+
+
+cycle 1897
+$08: 0x7EFDFEF7
+PC: 0x00000164
+
+
+cycle 1898
+$08: 0xFEFDFEF7
+PC: 0x00000168
+
+
+cycle 1899
+$08: 0x7EFDFEF6
+PC: 0x0000016C
+
+
+cycle 1900
+$08: 0xFEFDFEF6
+PC: 0x00000170
+
+
+cycle 1901
+PC: 0x00000174
+
+
+cycle 1902
+$09: 0xFEFDFEEA
+PC: 0x00000178
+
+
+cycle 1903
+PC: 0x0000017C
+
+
+cycle 1904
+$04: 0x0000013C
+PC: 0x00000180
+
+
+cycle 1905
+PC: 0x0000013C
+
+
+cycle 1906
+PC: 0x00000140
+
+
+cycle 1907
+$08: 0x7EFDFEF5
+PC: 0x00000144
+
+
+cycle 1908
+$08: 0xFEFDFEF5
+PC: 0x00000148
+
+
+cycle 1909
+$08: 0x7EFDFEF4
+PC: 0x0000014C
+
+
+cycle 1910
+$08: 0xFEFDFEF4
+PC: 0x00000150
+
+
+cycle 1911
+$08: 0x7EFDFEF3
+PC: 0x00000154
+
+
+cycle 1912
+$08: 0xFEFDFEF3
+PC: 0x00000158
+
+
+cycle 1913
+$08: 0x7EFDFEF2
+PC: 0x0000015C
+
+
+cycle 1914
+$08: 0xFEFDFEF2
+PC: 0x00000160
+
+
+cycle 1915
+$08: 0x7EFDFEF1
+PC: 0x00000164
+
+
+cycle 1916
+$08: 0xFEFDFEF1
+PC: 0x00000168
+
+
+cycle 1917
+$08: 0x7EFDFEF0
+PC: 0x0000016C
+
+
+cycle 1918
+$08: 0xFEFDFEF0
+PC: 0x00000170
+
+
+cycle 1919
+PC: 0x00000174
+
+
+cycle 1920
+PC: 0x00000178
+
+
+cycle 1921
+PC: 0x0000017C
+
+
+cycle 1922
+PC: 0x00000180
+
+
+cycle 1923
+PC: 0x0000013C
+
+
+cycle 1924
+PC: 0x00000140
+
+
+cycle 1925
+$08: 0x7EFDFEEF
+PC: 0x00000144
+
+
+cycle 1926
+$08: 0xFEFDFEEF
+PC: 0x00000148
+
+
+cycle 1927
+$08: 0x7EFDFEEE
+PC: 0x0000014C
+
+
+cycle 1928
+$08: 0xFEFDFEEE
+PC: 0x00000150
+
+
+cycle 1929
+$08: 0x7EFDFEED
+PC: 0x00000154
+
+
+cycle 1930
+$08: 0xFEFDFEED
+PC: 0x00000158
+
+
+cycle 1931
+$08: 0x7EFDFEEC
+PC: 0x0000015C
+
+
+cycle 1932
+$08: 0xFEFDFEEC
+PC: 0x00000160
+
+
+cycle 1933
+$08: 0x7EFDFEEB
+PC: 0x00000164
+
+
+cycle 1934
+$08: 0xFEFDFEEB
+PC: 0x00000168
+
+
+cycle 1935
+$08: 0x7EFDFEEA
+PC: 0x0000016C
+
+
+cycle 1936
+$08: 0xFEFDFEEA
+PC: 0x00000170
+
+
+cycle 1937
+PC: 0x00000174
+
+
+cycle 1938
+PC: 0x00000178
+
+
+cycle 1939
+PC: 0x00000184
+
+
+cycle 1940
+$09: 0x000002E8
+PC: 0x00000188
+
+
+cycle 1941
+$09: 0x000007F8
+PC: 0x0000018C
+
+
+cycle 1942
+$09: 0xFFFFF807
+PC: 0x00000190
+
+
