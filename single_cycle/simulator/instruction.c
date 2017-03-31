@@ -74,7 +74,7 @@ int rType(char *command)  //Deal with R-Type instruction
   printf("R-Type\n");
   if(strcmp(command, "add")==0)
   {
-    printf("0x%08X: add $%u, $%u=%d, $%u=%d\n", PC, rd, rs, REG[rs], rt, REG[rt]);
+    printf("0x%08X: add $%u, $%u, $%u\n", PC, rd, rs, rt);
     if(rd==0) writeToRegZero = 1;
     unsigned int result = (int32_t)REG[rs] + (int32_t)REG[rt];
     NumberOverflowDetection(REG[rs], REG[rt], result);
@@ -86,10 +86,9 @@ int rType(char *command)  //Deal with R-Type instruction
     else REG[rd] = REG[rs] + REG[rt];
   }else if(strcmp(command, "sub")==0)
   {
-    printf("0x%08X: sub $%u, $%u=%d, $%u=%d\n", PC, rd, rs, REG[rs], rt, REG[rt]);
+    printf("0x%08X: sub $%u, $%u=%d, $%u=%d\n", PC, rd, rs, rt);
     if(rd==0) writeToRegZero = 1;
     unsigned int result = (int32_t)REG[rs] - (int32_t)REG[rt];
-    printf("%d\n", result);
     NumberOverflowDetection(REG[rs], REG[rt], result);
     if(writeToRegZero!=1) REG[rd] = result;
   }else if(strcmp(command, "and")==0)
@@ -154,7 +153,10 @@ int rType(char *command)  //Deal with R-Type instruction
   {
     if(need_mfHILO==1) overwriteHILO = 1;
     printf("0x%08X: mult $%u, $%u\n", PC, rs, rt);
-    int64_t result = (int32_t)REG[rs] * (int32_t)REG[rt];
+    int64_t R_rs = (int32_t)REG[rs];
+    int64_t R_rt = (int32_t)REG[rt];
+    uint64_t result = R_rs * R_rt;
+    printf("%lld * %lld = %lld\n", R_rs, R_rt, result);
     HI = result >> 32;
     LO = result << 32 >> 32;
     need_mfHILO = 1;
@@ -162,7 +164,8 @@ int rType(char *command)  //Deal with R-Type instruction
   {
     if(need_mfHILO==1) overwriteHILO = 1;
     printf("0x%08X: multu $%u, $%u\n", PC, rs, rt);
-    int64_t result = (uint64_t)REG[rs] * (uint64_t)REG[rt];
+    uint64_t result = (uint64_t)REG[rs] * (uint64_t)REG[rt];
+    printf("%u * %u = %llu", REG[rs], REG[rt], result);
     HI = result >> 32;
     LO = result << 32 >> 32;
     need_mfHILO = 1;
