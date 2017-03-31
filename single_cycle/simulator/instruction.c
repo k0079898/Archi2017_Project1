@@ -5,12 +5,12 @@ int doInstruction()
   int i, isError = 0;
   int add = PC - initPC;
   for(i=0; i<4; i++) instruction = (instruction<<8) + (unsigned char)iMem[add+i];
-  opcode = instruction >> 26;  //31~26
-  printf("%08X ", instruction);
+  opcode = instruction >> 26;  //Get opcode in 31~26
+  //printf("%08X ", instruction);
   if(instruction==0x00000000 || PC < initPC)
   {
     PC = PC + 4;
-  }else if(opcode==0x3F) return 1;
+  }else if(opcode==0x3F) return 1;  //Detect halt
   else return decode();
 }
 
@@ -71,59 +71,59 @@ int rType(char *command)  //Deal with R-Type instruction
   rt = instruction << 11 >> 27;
   rd = instruction << 16 >> 27;
   shamt = instruction << 21 >> 27;
-  printf("R-Type\n");
+  //printf("R-Type\n");
   if(strcmp(command, "add")==0)
   {
-    printf("0x%08X: add $%u, $%u, $%u\n", PC, rd, rs, rt);
+    //printf("0x%08X: add $%u, $%u, $%u\n", PC, rd, rs, rt);
     if(rd==0) writeToRegZero = 1;
     unsigned int result = (int32_t)REG[rs] + (int32_t)REG[rt];
     NumberOverflowDetection(REG[rs], REG[rt], result);
     if(writeToRegZero!=1) REG[rd] = result;
   }else if(strcmp(command, "addu")==0)
   {
-    printf("0x%08X: addu $%u, $%u, $%u\n", PC, rd, rs, rt);
+    //printf("0x%08X: addu $%u, $%u, $%u\n", PC, rd, rs, rt);
     if(rd==0) writeToRegZero = 1;
     else REG[rd] = REG[rs] + REG[rt];
   }else if(strcmp(command, "sub")==0)
   {
-    printf("0x%08X: sub $%u, $%u=%d, $%u=%d\n", PC, rd, rs, rt);
+    //printf("0x%08X: sub $%u, $%u, $%u\n", PC, rd, rs, rt);
     if(rd==0) writeToRegZero = 1;
     unsigned int result = (int32_t)REG[rs] - (int32_t)REG[rt];
-    NumberOverflowDetection(REG[rs], REG[rt], result);
+    NumberOverflowDetection(REG[rs], REG[rt]*(-1), result);  //a - b = a + (-b)
     if(writeToRegZero!=1) REG[rd] = result;
   }else if(strcmp(command, "and")==0)
   {
-    printf("0x%08X: and $%u, $%u, $%u\n", PC, rd, rs, rt);
+    //printf("0x%08X: and $%u, $%u, $%u\n", PC, rd, rs, rt);
     if(rd==0) writeToRegZero = 1;
     else REG[rd] = REG[rs] & REG[rt];
   }else if(strcmp(command, "or")==0)
   {
-    printf("0x%08X: or $%u, $%u, $%u\n", PC, rd, rs, rt);
+    //printf("0x%08X: or $%u, $%u, $%u\n", PC, rd, rs, rt);
     if(rd==0) writeToRegZero = 1;
     else REG[rd] = REG[rs] | REG[rt];
   }else if(strcmp(command, "xor")==0)
   {
-    printf("0x%08X: xor $%u, $%u, $%u\n", PC, rd, rs, rt);
+    //printf("0x%08X: xor $%u, $%u, $%u\n", PC, rd, rs, rt);
     if(rd==0) writeToRegZero = 1;
     else REG[rd] = REG[rs] ^ REG[rt];
   }else if(strcmp(command, "nor")==0)
   {
-    printf("0x%08X: nor $%u, $%u, $%u\n", PC, rd, rs, rt);
+    //printf("0x%08X: nor $%u, $%u, $%u\n", PC, rd, rs, rt);
     if(rd==0) writeToRegZero = 1;
     else REG[rd] = ~(REG[rs] | REG[rt]);
   }else if(strcmp(command, "nand")==0)
   {
-    printf("0x%08X: nand $%u, $%u, $%u\n", PC, rd, rs, rt);
+    //printf("0x%08X: nand $%u, $%u, $%u\n", PC, rd, rs, rt);
     if(rd==0) writeToRegZero = 1;
     else REG[rd] = ~(REG[rs] & REG[rt]);
   }else if(strcmp(command, "slt")==0)
   {
-    printf("0x%08X: slt $%u, $%u, $%u\n", PC, rd, rs, rt);
+    //printf("0x%08X: slt $%u, $%u, $%u\n", PC, rd, rs, rt);
     if(rd==0) writeToRegZero = 1;
     else REG[rd] = ((int32_t)REG[rs] < (int32_t)REG[rt]) ? 1:0;
   }else if(strcmp(command, "sll")==0)
   {
-    printf("0x%08X: sll $%u, $%u, $%u\n", PC, rd, rt, shamt);
+    //printf("0x%08X: sll $%u, $%u, $%u\n", PC, rd, rt, shamt);
     if(rd==0)
     {
         if(rd==0 && rt==0 && shamt==0)
@@ -136,48 +136,50 @@ int rType(char *command)  //Deal with R-Type instruction
     }else REG[rd] = REG[rt] << shamt;
   }else if(strcmp(command, "srl")==0)
   {
-    printf("0x%08X: srl $%u, $%u, $%u\n", PC, rd, rt, shamt);
+    //printf("0x%08X: srl $%u, $%u, $%u\n", PC, rd, rt, shamt);
     if(rd==0) writeToRegZero = 1;
     else REG[rd] = REG[rt] >> shamt;
   }else if(strcmp(command, "sra")==0)
   {
-    printf("0x%08X: sra $%u, $%u, $%u\n", PC, rd, rt, shamt);
+    //printf("0x%08X: sra $%u, $%u, $%u\n", PC, rd, rt, shamt);
     if(rd==0) writeToRegZero = 1;
     else REG[rd] = (int32_t)REG[rt] >> shamt;
   }else if(strcmp(command, "jr")==0)
   {
-    printf("0x%08X: jr $%u\n", PC, rs);
+    //printf("0x%08X: jr $%u\n", PC, rs);
     PC = REG[rs];
     return 0;  //Witout PC = PC + 4;
   }else if(strcmp(command, "mult")==0)
   {
     if(need_mfHILO==1) overwriteHILO = 1;
-    printf("0x%08X: mult $%u, $%u\n", PC, rs, rt);
+    //printf("0x%08X: mult $%u, $%u\n", PC, rs, rt);
     int64_t R_rs = (int32_t)REG[rs];
     int64_t R_rt = (int32_t)REG[rt];
     uint64_t result = R_rs * R_rt;
-    printf("%lld * %lld = %lld\n", R_rs, R_rt, result);
+    //printf("%lld * %lld = %lld\n", R_rs, R_rt, result);
     HI = result >> 32;
     LO = result << 32 >> 32;
     need_mfHILO = 1;
   }else if(strcmp(command, "multu")==0)
   {
     if(need_mfHILO==1) overwriteHILO = 1;
-    printf("0x%08X: multu $%u, $%u\n", PC, rs, rt);
-    uint64_t result = (uint64_t)REG[rs] * (uint64_t)REG[rt];
-    printf("%u * %u = %llu", REG[rs], REG[rt], result);
+    //printf("0x%08X: multu $%u, $%u\n", PC, rs, rt);
+    uint64_t R_rs = (uint32_t)REG[rs];
+    uint64_t R_rt = (uint32_t)REG[rt];
+    uint64_t result = R_rs * R_rt;
+    //printf("%llu * %llu = %llu\n", R_rs, R_rt, result);
     HI = result >> 32;
     LO = result << 32 >> 32;
     need_mfHILO = 1;
   }else if(strcmp(command, "mfhi")==0)
   {
-    printf("0x%08X: mfhi $%u\n", PC, rd);
+    //printf("0x%08X: mfhi $%u\n", PC, rd);
     if(rd==0) writeToRegZero = 1;
     else REG[rd] = HI;
     need_mfHILO = 0;
   }else if(strcmp(command, "mflo")==0)
   {
-    printf("0x%08X: mflo $%u\n", PC, rd);
+    //printf("0x%08X: mflo $%u\n", PC, rd);
     if(rd==0) writeToRegZero = 1;
     else REG[rd] = LO;
     need_mfHILO = 0;
@@ -189,23 +191,23 @@ int iType(char *command)  //Deal with I-Type instruction
 {
   rs = instruction << 6 >> 27;
   rt = instruction << 11 >> 27;
-  printf("I-Type\n");
-  immediate = (short int)instruction << 16 >> 16;  //Immediate is not unsigned!!!!
+  //printf("I-Type\n");
+  immediate = (short int)instruction << 16 >> 16;  //Immediate is not unsigned int!!!!
   if(strcmp(command, "addi")==0)
   {
-    printf("0x%08X: addi $%u, $%u=%d, %d\n", PC, rt, rs, REG[rs], immediate);
+    //printf("0x%08X: addi $%u, $%u, %d\n", PC, rt, rs, immediate);
     if(rt==0) writeToRegZero = 1;
     unsigned int result = (int32_t)REG[rs] + (int32_t)immediate;
     NumberOverflowDetection(REG[rs], immediate, result);
     if(writeToRegZero!=1) REG[rt] = result;
   }else if(strcmp(command, "addiu")==0)
   {
-    printf("0x%08X: addiu $%u, $%u, %d\n", PC, rs, rt, immediate);
+    //printf("0x%08X: addiu $%u, $%u, %d\n", PC, rs, rt, immediate);
     if(rt==0) writeToRegZero = 1;
     else REG[rt] = REG[rs] + immediate;
   }else if(strcmp(command, "lw")==0)
   {
-    printf("0x%08X: lw $%u, %04X($%u)\n", PC, rt, immediate, rs);
+    //printf("0x%08X: lw $%u, %04X($%u)\n", PC, rt, immediate, rs);
     unsigned int addr = REG[rs] + (int32_t)immediate;
     if(rt==0) writeToRegZero = 1;
     NumberOverflowDetection(REG[rs], immediate, addr);
@@ -215,7 +217,7 @@ int iType(char *command)  //Deal with I-Type instruction
     if(writeToRegZero!=1) REG[rt] = (int32_t)(dMem[addr] << 24 | dMem[addr+1] << 16 | dMem[addr+2] << 8 | dMem[addr+3]);
   }else if(strcmp(command, "lh")==0)
   {
-    printf("0x%08X: lh $%u, %04X($%u)\n", PC, rt, immediate, rs);
+    //printf("0x%08X: lh $%u, %04X($%u)\n", PC, rt, immediate, rs);
     unsigned int addr = REG[rs] + (int32_t)immediate;
     if(rt==0) writeToRegZero = 1;
     NumberOverflowDetection(REG[rs], immediate, addr);
@@ -225,7 +227,7 @@ int iType(char *command)  //Deal with I-Type instruction
     if(writeToRegZero!=1) REG[rt] = (int16_t)(dMem[addr] << 8 | dMem[addr+1]);
   }else if(strcmp(command, "lhu")==0)
   {
-    printf("0x%08X: lhu $%u, %04X($%u)\n", PC, rt, immediate, rs);
+    //printf("0x%08X: lhu $%u, %04X($%u)\n", PC, rt, immediate, rs);
     unsigned int addr = REG[rs] + (int32_t)immediate;
     if(rt==0) writeToRegZero = 1;
     NumberOverflowDetection(REG[rs], immediate, addr);
@@ -235,7 +237,7 @@ int iType(char *command)  //Deal with I-Type instruction
     if(writeToRegZero!=1) REG[rt] = (uint16_t)(dMem[addr] << 8 | dMem[addr+1]);
   }else if(strcmp(command, "lb")==0)
   {
-    printf("0x%08X: lb $%u, %04X($%u)\n", PC, rt, immediate, rs);
+    //printf("0x%08X: lb $%u, %04X($%u)\n", PC, rt, immediate, rs);
     unsigned int addr = REG[rs] + (int32_t)immediate;
     if(rt==0) writeToRegZero = 1;
     NumberOverflowDetection(REG[rs], immediate, addr);
@@ -245,7 +247,7 @@ int iType(char *command)  //Deal with I-Type instruction
     if(writeToRegZero!=1) REG[rt] = (int8_t)dMem[addr];
   }else if(strcmp(command, "lbu")==0)
   {
-    printf("0x%08X: lbu $%u, %04X($%u)\n", PC, rt, immediate, rs);
+    //printf("0x%08X: lbu $%u, %04X($%u)\n", PC, rt, immediate, rs);
     unsigned int addr = REG[rs] + (int32_t)immediate;
     if(rt==0) writeToRegZero = 1;
     NumberOverflowDetection(REG[rs], immediate, addr);
@@ -256,7 +258,7 @@ int iType(char *command)  //Deal with I-Type instruction
     NumberOverflowDetection(REG[rs], immediate, addr);
   }else if(strcmp(command, "sw")==0)
   {
-    printf("0x%08X: sw $%u, %04X($%u)\n", PC, rt, immediate, rs);
+    //printf("0x%08X: sw $%u, %04X($%u)\n", PC, rt, immediate, rs);
     unsigned int addr = REG[rs] + (int32_t)immediate;
     NumberOverflowDetection(REG[rs], immediate, addr);
     MemAddOverflowDetection(addr, 3);
@@ -268,7 +270,7 @@ int iType(char *command)  //Deal with I-Type instruction
     dMem[addr+3] = REG[rt];
   }else if(strcmp(command, "sh")==0)
   {
-    printf("0x%08X: sh $%u, %04X($%u)\n", PC, rt, immediate, rs);
+    //printf("0x%08X: sh $%u, %04X($%u)\n", PC, rt, immediate, rs);
     unsigned int addr = REG[rs] + (int32_t)immediate;
     NumberOverflowDetection(REG[rs], immediate, addr);
     MemAddOverflowDetection(addr, 1);
@@ -278,7 +280,7 @@ int iType(char *command)  //Deal with I-Type instruction
     dMem[addr+1] = REG[rt] & 0xFF;
   }else if(strcmp(command, "sb")==0)
   {
-    printf("0x%08X: sb $%u, %04X($%u)\n", PC, rt, immediate, rs);
+    //printf("0x%08X: sb $%u, %04X($%u)\n", PC, rt, immediate, rs);
     unsigned int addr = REG[rs] + (int32_t)immediate;
     NumberOverflowDetection(REG[rs], immediate, addr);
     MemAddOverflowDetection(addr, 0);
@@ -287,32 +289,32 @@ int iType(char *command)  //Deal with I-Type instruction
     dMem[addr] = REG[rt] & 0xFF;
   }else if(strcmp(command, "lui")==0)
   {
-    printf("0x%08X: lui $%u, %04X\n", PC, rt, immediate);
+    //printf("0x%08X: lui $%u, %04X\n", PC, rt, immediate);
     if(rt==0) writeToRegZero = 1;
     else REG[rt] = immediate << 16;
   }else if(strcmp(command, "andi")==0)
   {
-    printf("0x%08X: andi $%u, $%u, %04X\n", PC, rt, rs, immediate);
+    //printf("0x%08X: andi $%u, $%u, %04X\n", PC, rt, rs, immediate);
     if(rt==0) writeToRegZero = 1;
     else REG[rt] = REG[rs] & (uint16_t)immediate;
   }else if(strcmp(command, "ori")==0)
   {
-    printf("0x%08X: ori $%u, $%u, %04X\n", PC, rt, rs, immediate);
+    //printf("0x%08X: ori $%u, $%u, %04X\n", PC, rt, rs, immediate);
     if(rt==0) writeToRegZero = 1;
     else REG[rt] = REG[rs] | (uint16_t)immediate;
   }else if(strcmp(command, "nori")==0)
   {
-    printf("0x%08X: nori $%u, $%u, %04X\n", PC, rt, rs, immediate);
+    //printf("0x%08X: nori $%u, $%u, %04X\n", PC, rt, rs, immediate);
     if(rt==0) writeToRegZero = 1;
     else REG[rt] = ~(REG[rs] | (uint16_t)immediate);
   }else if(strcmp(command, "slti")==0)
   {
-    printf("0x%08X: slti $%u, $%u, %04X\n", PC, rt, rs, immediate);
+    //printf("0x%08X: slti $%u, $%u, %04X\n", PC, rt, rs, immediate);
     if(rt==0) writeToRegZero = 1;
     else REG[rt] = ((int32_t)REG[rs] < (int32_t)immediate) ? 1:0;
   }else if(strcmp(command, "beq")==0)
   {
-    printf("0x%08X: beq $%u, $%u, %04X\n", PC, rs, rt, immediate);
+    //printf("0x%08X: beq $%u, $%u, %04X\n", PC, rs, rt, immediate);
     if(REG[rs]==REG[rt])
     {
       PC = (PC + 4) + (4 * immediate);
@@ -320,7 +322,7 @@ int iType(char *command)  //Deal with I-Type instruction
     }
   }else if(strcmp(command, "bne")==0)
   {
-    printf("0x%08X: bne $%u, $%u, %04X\n", PC, rs, rt, immediate);
+    //printf("0x%08X: bne $%u, $%u, %04X\n", PC, rs, rt, immediate);
     if(REG[rs]!=REG[rt])
     {
       PC = (PC + 4) + (4 * immediate);
@@ -328,7 +330,7 @@ int iType(char *command)  //Deal with I-Type instruction
     }
   }else if(strcmp(command, "bgtz")==0)
   {
-    printf("0x%08X: bgtz $%u, %04X\n", PC, rs, immediate);
+    //printf("0x%08X: bgtz $%u, %04X\n", PC, rs, immediate);
     if((int32_t)REG[rs]>0)
     {
       PC = (PC + 4) + (4 * immediate);
@@ -342,14 +344,14 @@ int iType(char *command)  //Deal with I-Type instruction
 int jType(char *command)  //Deal with J-type instruction
 {
   address = instruction << 6 >> 6;
-  printf("J-Type\n");
+  //printf("J-Type\n");
   if(strcmp(command, "j")==0)
   {
-    printf("0x%08X: j %08X\n", PC, address);
+    //printf("0x%08X: j %08X\n", PC, address);
     PC = ((PC+4) >> 28 << 28) | (4*address);
   }else if(strcmp(command, "jal")==0)
   {
-    printf("0x%08X: jal %08X\n", PC, address);
+    //printf("0x%08X: jal %08X\n", PC, address);
     REG[31] = PC + 4;
     PC = ((PC+4) >> 28 << 28) | (4*address);
   }else return 1;

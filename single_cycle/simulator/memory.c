@@ -1,6 +1,6 @@
 #include "memory.h"
 
-void readBin()  //Read iimage.bin & dimage.bin
+void readBin()  //Read iimage.bin & dimage.bin into buffer
 {
   unsigned int iimageSize = 0, dimageSize = 0;
   //Open file
@@ -26,7 +26,7 @@ void readBin()  //Read iimage.bin & dimage.bin
 }
 
 
-void writeMem()  //Read into memory
+void writeMem()  //Write data into memory & free the buffer
 {
   int m;
   unsigned int temp = 0, line = 0;
@@ -41,9 +41,9 @@ void writeMem()  //Read into memory
   line = 0;
   for(m=0; m<4; m++) temp = (temp<<8) + (unsigned char)dBuffer[m];
   REG[29] = temp;
-  initSP = temp;
   for(m=4; m<8; m++) line = (line<<8) + (unsigned char)dBuffer[m];
   for(m=8; m<8+line*4; m++) dMem[m-8] = dBuffer[m];
+  //Free the buffer
   free(iBuffer);
   free(dBuffer);
 }
